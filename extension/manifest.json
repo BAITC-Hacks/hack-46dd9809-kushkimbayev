@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "EKT · ИИ-консультант",
+  "version": "0.1.0",
+  "description": "Ассистент по каталогу ekt.kz. Ключи и обработка запросов — на вашем сервере.",
+  "permissions": ["storage"],
+  "host_permissions": ["http://localhost:8787/*", "http://127.0.0.1:8787/*"],
+  "optional_host_permissions": ["https://*/*"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [{ "matches": ["https://ekt.kz/*", "https://www.ekt.kz/*"], "js": ["content.js"], "run_at": "document_idle" }],
+  "web_accessible_resources": [{ "resources": ["widget.html", "widget.css", "widget.js"], "matches": ["https://ekt.kz/*", "https://www.ekt.kz/*"] }],
+  "options_page": "options.html",
+  "action": { "default_title": "Настройки EKT-ассистента" },
+  "content_security_policy": { "extension_pages": "script-src 'self'; object-src 'none'; base-uri 'none'" }
+}

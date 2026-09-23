@@ -1,0 +1,23 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { createApp } from '../server/index.js';
+import { DemoCatalog } from '../server/catalog.js';
+test('HTTP security, session isolation, readonly cart, duplicate commit and static boundaries', async t => {
+  const app = createApp({ env: {}, catalog: new DemoCatalog(), ai: { enabled: false } });
+  await new Promise(resolve => app.server.listen(0, '127.0.0.1', resolve)); t.after(() => new Promise(resolve => app.server.close(resolve)));
+  const base = `http://127.0.0.1:${app.server.address().port}`;
+  const request = (route, method = 'GET', body, token, origin) => fetch(base + route, { method, headers: { 'Content-Type': 'application/json', ...(token ? { Authorization: `Bearer ${token}` } : {}), ...(origin ? { Origin: origin } : {}) }, ...(body === undefined ? {} : { body: JSON.stringify(body) }) });
+  assert.equal((await request('/api/session', 'POST', {}, null, 'https://evil.test')).status, 403);
+  assert.equal((await request('/api/cart')).status, 401);
+  assert.equal((await request('/.env')).status, 404);
+  const a = (await (await request('/api/session', 'POST')).json()).token, b = (await (await request('/api/session', 'POST')).json()).token;
+  const proposal = (await (await request('/api/cart/prepare', 'POST', { sku: 'DEMO-101', quantity: 2 }, a)).json()).proposal;
+  assert.equal((await request('/api/cart/confirm', 'POST', { proposalId: proposal.id, confirmed: true }, b)).status, 409);
+  const responses = await Promise.all([1, 2].map(() => request('/api/cart/confirm', 'POST', { proposalId: proposal.id, confirmed: true }, a)));
+  assert.ok(responses.some(r => r.status === 200));
+  const cart = await (await request('/api/cart', 'GET', undefined, a)).json(); assert.equal(cart.items[0].quantity, 2);
+  const readonly = cart.cartPath.split('#')[1]; assert.equal((await request('/api/cart/view', 'GET', undefined, readonly)).status, 200); assert.equal((await request('/api/cart/prepare', 'POST', {}, readonly)).status, 401);
+  assert.equal((await (await request('/api/cart', 'GET', undefined, b)).json()).items.length, 0);
+  assert.equal((await request('/api/chat', 'POST', { message: 'x'.repeat(3001) }, a)).status, 400);
+  await request('/api/session', 'DELETE', undefined, a); assert.equal((await request('/api/cart/view', 'GET', undefined, readonly)).status, 401);
+});

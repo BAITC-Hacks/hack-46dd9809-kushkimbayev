@@ -1,0 +1,7 @@
+{
+  "name": "ekt-assistant", "version": "0.1.0", "private": true, "type": "module",
+  "engines": { "node": ">=22.18.0" },
+  "scripts": { "start": "node --env-file-if-exists=.env server/index.js", "dev": "node --watch --env-file-if-exists=.env server/index.js", "test": "node --test tests/*.test.js", "check": "node scripts/check.js" },
+  "dependencies": { "adm-zip": "^0.6.1", "exceljs": "^4.4.0", "mammoth": "^1.10.0", "pdfjs-dist": "^6.2.108", "sharp": "^0.35.4" },
+  "overrides": { "exceljs": { "uuid": "^11.1.1" } }
+}
