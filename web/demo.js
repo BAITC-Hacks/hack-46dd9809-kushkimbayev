@@ -5,7 +5,7 @@ async function load(query = '') {
     const area = document.querySelector('#products'); area.replaceChildren();
     document.querySelector('#catalog-count').textContent = `${data.products.length} позиций в подборке`;
     document.querySelector('#source-label').textContent = data.mode === 'live' ? '● API ekt.kz' : '● Тестовые данные';
-    document.querySelector('#catalog-note').textContent = data.mode === 'live' ? 'Показана часть каталога. Актуальное наличие и характеристики проверяются при запросе в чате. Корзина в прототипе демонстрационная.' : 'Демонстрационные товары, цены и остатки. Данные не являются предложением ekt.kz.';
+    document.querySelector('#catalog-note').textContent = data.mode === 'live' ? 'Показана часть каталога. Актуальное наличие и характеристики проверяются при запросе в чате. ' : 'Демонстрационные товары, цены и остатки. Данные не являются предложением ekt.kz.';
     for (const p of data.products.slice(0, 9)) {
       const card = el('article', 'catalog-card'), visual = el('div', 'product-visual');
       if (p.image) { const img = el('img'); img.src = p.image; img.alt = ''; img.loading = 'lazy'; visual.append(img); } else visual.append(el('span', 'symbol', p.category === 'Кабель' ? '◎' : '▥'));

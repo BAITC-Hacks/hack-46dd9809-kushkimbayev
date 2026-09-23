@@ -1,3 +1,4 @@
+import { searchProducts } from './search.js';
 const product = (sku, name, category, price, stock, specs, extra = {}) => ({
   sku, name, category, price, currency: 'KZT', unit: 'шт.', minOrder: 1,
   warehouses: [{ name: 'Алматы · демо', stock }], specs, certificates: [], ...extra,
@@ -20,13 +21,7 @@ export class DemoCatalog {
   constructor(items = structuredClone(products)) { this.items = items; }
   get(sku) { return this.items.find(p => p.sku === sku); }
   search(query) {
-    const q = normalize(query);
-    const exact = this.items.filter(p => q.includes(p.sku.toLowerCase()));
-    if (exact.length) return exact;
-    if (/demo-\d+/i.test(q)) return [];
-    const tokens = q.match(/[\p{L}\d]+/gu)?.filter(x => x.length > 2) ?? [];
-    return this.items.map(p => ({ p, score: tokens.reduce((n, t) => n + (normalize(`${p.name} ${p.category} ${p.brand} ${Object.values(p.specs).join(' ')}`).includes(t) ? 1 : 0), 0) }))
-      .filter(x => x.score > 0).sort((a, b) => b.score - a.score).slice(0, 4).map(x => x.p);
+    return searchProducts(this.items, query);
   }
   alternatives(p) {
     return this.items.filter(x => x.sku !== p.sku && x.compatibility === p.compatibility && stockOf(x) > 0)

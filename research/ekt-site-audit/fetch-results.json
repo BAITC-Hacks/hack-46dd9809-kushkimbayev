@@ -1,0 +1,233 @@
+[
+  {
+    "url": "https://ekt.kz/about/",
+    "file": "page-01.html",
+    "status": 200,
+    "bytes": 383279,
+    "title": "Покупателям"
+  },
+  {
+    "url": "https://ekt.kz/shields/",
+    "file": "page-02.html",
+    "status": 200,
+    "bytes": 372956,
+    "title": "Щиты под заказ"
+  },
+  {
+    "url": "https://ekt.kz/about/information/",
+    "file": "page-03.html",
+    "status": 200,
+    "bytes": 373453,
+    "title": "Полезная информация"
+  },
+  {
+    "url": "https://ekt.kz/about/faq/",
+    "file": "page-04.html",
+    "status": 200,
+    "bytes": 449041,
+    "title": "Часто задаваемые вопросы"
+  },
+  {
+    "url": "https://ekt.kz/about/howto/",
+    "file": "page-05.html",
+    "status": 200,
+    "bytes": 377664,
+    "title": "Как сделать заказ"
+  },
+  {
+    "url": "https://ekt.kz/Cloudpayments/",
+    "file": "page-06.html",
+    "status": 200,
+    "bytes": 409833,
+    "title": "Онлайн оплата"
+  },
+  {
+    "url": "https://ekt.kz/return/",
+    "file": "page-07.html",
+    "status": 200,
+    "bytes": 374569,
+    "title": "Возврат и обмен"
+  },
+  {
+    "url": "https://ekt.kz/about/contacts/",
+    "file": "page-08.html",
+    "status": 200,
+    "bytes": 584442,
+    "title": "Контакты"
+  },
+  {
+    "url": "https://ekt.kz/kz/",
+    "file": "page-09.html",
+    "status": 200,
+    "bytes": 406237,
+    "title": "КАЗ"
+  },
+  {
+    "url": "https://ekt.kz/catalog/",
+    "file": "page-10.html",
+    "status": 200,
+    "bytes": 383299,
+    "title": "Каталог продукции"
+  },
+  {
+    "url": "https://ekt.kz/news/",
+    "file": "page-11.html",
+    "status": 200,
+    "bytes": 375744,
+    "title": "Новости"
+  },
+  {
+    "url": "https://ekt.kz/about/our-team/vacancy/",
+    "file": "page-12.html",
+    "status": 200,
+    "bytes": 436576,
+    "title": "Вакансии"
+  },
+  {
+    "url": "https://ekt.kz/about/our-team/",
+    "file": "page-13.html",
+    "status": 200,
+    "bytes": 372756,
+    "title": "Карьера"
+  },
+  {
+    "url": "https://ekt.kz/cooperation/",
+    "file": "page-14.html",
+    "status": 200,
+    "bytes": 380941,
+    "title": "Сотрудничество"
+  },
+  {
+    "url": "https://ekt.kz/checkout-delivery/",
+    "file": "page-15.html",
+    "status": 200,
+    "bytes": 375841,
+    "title": "Доставка и оплата"
+  },
+  {
+    "url": "https://ekt.kz/payments/",
+    "file": "page-16.html",
+    "status": 200,
+    "bytes": 390254,
+    "title": "AirbaPay"
+  },
+  {
+    "url": "https://ekt.kz/usloviya-po-rassrochke/",
+    "file": "page-17.html",
+    "status": 200,
+    "bytes": 383363,
+    "title": ""
+  },
+  {
+    "url": "https://ekt.kz/3d-tour/",
+    "file": "page-18.html",
+    "status": 200,
+    "bytes": 369895,
+    "title": ""
+  },
+  {
+    "url": "https://ekt.kz/polytic/",
+    "file": "page-19.html",
+    "status": 200,
+    "bytes": 424081,
+    "title": "Политика конфиденциальности"
+  },
+  {
+    "url": "https://ekt.kz/catalog/magazin_podarkov_1/",
+    "file": "page-20.html",
+    "status": 200,
+    "bytes": 538195,
+    "title": "Магазин Подарков"
+  },
+  {
+    "url": "https://ekt.kz/catalog/kabel_provod/",
+    "file": "page-21.html",
+    "status": 200,
+    "bytes": 648272,
+    "title": "Кабель / Провод"
+  },
+  {
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/",
+    "file": "page-22.html",
+    "status": 200,
+    "bytes": 1186033,
+    "title": "Светильники / Лампы"
+  },
+  {
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/",
+    "file": "page-23.html",
+    "status": 200,
+    "bytes": 1157268,
+    "title": "Низковольтная аппаратура"
+  },
+  {
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/",
+    "file": "page-24.html",
+    "status": 200,
+    "bytes": 724177,
+    "title": "Кабеленесущие системы"
+  },
+  {
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/",
+    "file": "page-25.html",
+    "status": 200,
+    "bytes": 1140105,
+    "title": "Изделия для монтажа и инструмент"
+  },
+  {
+    "url": "https://ekt.kz/catalog/prochee_oborudovanie/",
+    "file": "page-26.html",
+    "status": 200,
+    "bytes": 578549,
+    "title": "Прочее оборудование"
+  },
+  {
+    "url": "https://ekt.kz/catalog/shkafy_shchity/",
+    "file": "page-27.html",
+    "status": 200,
+    "bytes": 745111,
+    "title": "Шкафы / Щиты"
+  },
+  {
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/",
+    "file": "page-28.html",
+    "status": 200,
+    "bytes": 917928,
+    "title": "Розетки/Выключатели/Коробки"
+  },
+  {
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/",
+    "file": "page-29.html",
+    "status": 200,
+    "bytes": 681880,
+    "title": "Автоматизация"
+  },
+  {
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/",
+    "file": "page-30.html",
+    "status": 200,
+    "bytes": 621609,
+    "title": "Видеонаблюдение / СКУД / Сигнализация"
+  },
+  {
+    "url": "https://ekt.kz/catalog/instrument_kip/",
+    "file": "page-31.html",
+    "status": 200,
+    "bytes": 628926,
+    "title": "Инструмент / КИП"
+  },
+  {
+    "url": "https://ekt.kz/catalog/korzina_elektrika/",
+    "file": "page-32.html",
+    "status": 200,
+    "bytes": 763261,
+    "title": "Корзина Электрика"
+  },
+  {
+    "url": "https://pro.ekt.kz/",
+    "file": "page-33.html",
+    "status": 200,
+    "bytes": 18713,
+    "title": "EKT PRO"
+  }
+]

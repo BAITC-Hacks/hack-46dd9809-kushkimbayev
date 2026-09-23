@@ -1,19 +1,57 @@
-const allowed = new Set(['/api/health', '/api/chat', '/api/cart', '/api/cart/prepare', '/api/cart/confirm', '/api/session']);
-chrome.action.onClicked.addListener(() => chrome.runtime.openOptionsPage());
+importScripts('config.js');
+const allowed = new Map([
+  ['/api/health', ['GET']], ['/api/chat', ['POST']],
+  ['/api/cart/prepare', ['POST']], ['/api/cart/confirm', ['POST']], ['/api/session', ['DELETE']],
+]);
+chrome.action.onClicked.addListener(async tab => {
+  if (tab?.id) {
+    try { const result = await chrome.tabs.sendMessage(tab.id, { type: 'ekt-assistant-open' }); if (result?.opened) return; } catch {}
+  }
+  await chrome.tabs.create({ url: 'https://ekt.kz' });
+});
+let creatingSession;
 chrome.runtime.onMessage.addListener((message, sender, reply) => {
-  if (sender.id !== chrome.runtime.id || sender.url !== chrome.runtime.getURL('widget.html') || message?.type !== 'api' || !allowed.has(message.path)) return;
+  const method = message?.method || 'GET';
+  const widgetURLs = [chrome.runtime.getURL('widget.html'), chrome.runtime.getURL('widget.html?embedded=1')];
+  if (sender.id !== chrome.runtime.id || !widgetURLs.includes(sender.url) || message?.type !== 'api' || !allowed.get(message.path)?.includes(method)) return;
   (async () => {
-    const { serverURL = 'http://localhost:8787' } = await chrome.storage.local.get('serverURL');
-    const { sessionToken } = await chrome.storage.session.get('sessionToken');
-    const call = async (route, method, body, token) => {
-      const r = await fetch(serverURL + route, { method, signal: AbortSignal.timeout(45000), headers: { 'Content-Type': 'application/json', ...(token ? { Authorization: `Bearer ${token}` } : {}) }, ...(body === undefined ? {} : { body: JSON.stringify(body) }) });
-      const data = await r.json(); if (!r.ok) { if (r.status === 401) await chrome.storage.session.remove('sessionToken'); throw Error(data.error || 'Сервер недоступен'); } return data;
+    const serverURL = globalThis.EKT_CONFIG.serverURL;
+    const call = async (route, verb, body, token) => {
+      let r;
+      try {
+        r = await fetch(serverURL + route, { method: verb, signal: AbortSignal.timeout(45000), headers: { 'Content-Type': 'application/json', ...(token ? { Authorization: `Bearer ${token}` } : {}) }, ...(body === undefined ? {} : { body: JSON.stringify(body) }) });
+      } catch { throw Error('Сервер не запущен. Откройте Start-EKT.cmd на этом компьютере и повторите сообщение.'); }
+      const data = await r.json();
+      if (!r.ok) { const error = Error(data.error || 'Сервер временно недоступен.'); error.status = r.status; throw error; }
+      return data;
     };
-    let token = sessionToken;
-    if (!token && message.path !== '/api/health') { token = (await call('/api/session', 'POST', {}, null)).token; await chrome.storage.session.set({ sessionToken: token }); }
-    const data = await call(message.path, message.method || 'GET', message.body, token);
-    if (message.method === 'DELETE') await chrome.storage.session.remove('sessionToken');
+    const getSession = async () => {
+      const saved = await chrome.storage.session.get(['sessionToken', 'sessionServer']);
+      if (saved.sessionToken && saved.sessionServer === serverURL) return saved.sessionToken;
+      if (!creatingSession) creatingSession = call('/api/session', 'POST', {}, null).then(async data => { await chrome.storage.session.set({ sessionToken: data.token, sessionServer: serverURL }); return data.token; }).finally(() => { creatingSession = null; });
+      return creatingSession;
+    };
+    if (message.path === '/api/health') return { data: await call(message.path, method), serverURL };
+    const token = await getSession();
+    let data;
+    try { data = await call(message.path, method, message.body, token); }
+    catch (error) {
+      if (error.status !== 401) throw error;
+      await chrome.storage.session.remove(['sessionToken', 'sessionServer']);
+      // A stale confirmation must never be replayed in a new session.
+      if (message.path === '/api/cart/confirm') throw Error('Сессия обновилась. Выберите товар и подтвердите добавление заново.');
+      data = await call(message.path, method, message.body, await getSession());
+    }
+    if (method === 'DELETE') await chrome.storage.session.remove(['sessionToken', 'sessionServer']);
+    if (message.path === '/api/chat' && data.matchType === 'exact' && data.navigation?.type === 'open_product' && !message.body?.attachment) {
+      try {
+        const target = new URL(data.navigation.url);
+        if (target.protocol !== 'https:' || target.hostname !== 'ekt.kz' || target.port || target.username || target.password || !target.pathname.startsWith('/catalog/')) throw Error('Invalid product URL');
+        await chrome.tabs.create({ url: target.href, active: true });
+        data.navigation.opened = true;
+      } catch { data.navigation.opened = false; }
+    }
     return { data, serverURL };
-  })().then(reply).catch(e => reply({ error: e.message }));
+  })().then(reply).catch(error => reply({ error: error.message }));
   return true;
 });

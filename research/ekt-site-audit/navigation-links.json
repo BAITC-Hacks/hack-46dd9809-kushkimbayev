@@ -1,0 +1,2542 @@
+[
+  {
+    "label": "Личный кабинет",
+    "url": "https://ekt.kz/personal/"
+  },
+  {
+    "label": "B2B - ЕКТ PRO",
+    "url": "https://pro.ekt.kz/"
+  },
+  {
+    "label": "Покупателям",
+    "url": "https://ekt.kz/about/"
+  },
+  {
+    "label": "Оставить заявку",
+    "url": "https://ekt.kz/"
+  },
+  {
+    "label": "Щиты под заказ",
+    "url": "https://ekt.kz/shields/"
+  },
+  {
+    "label": "Полезная информация",
+    "url": "https://ekt.kz/about/information/"
+  },
+  {
+    "label": "Часто задаваемые вопросы",
+    "url": "https://ekt.kz/about/faq/"
+  },
+  {
+    "label": "Как сделать заказ",
+    "url": "https://ekt.kz/about/howto/"
+  },
+  {
+    "label": "Онлайн оплата",
+    "url": "https://ekt.kz/Cloudpayments/"
+  },
+  {
+    "label": "Возврат и обмен",
+    "url": "https://ekt.kz/return/"
+  },
+  {
+    "label": "Контакты",
+    "url": "https://ekt.kz/about/contacts/"
+  },
+  {
+    "label": "КАЗ",
+    "url": "https://ekt.kz/kz/"
+  },
+  {
+    "label": "Оставить заявку",
+    "url": "javascript:void(0)"
+  },
+  {
+    "label": "+7 (727) 346-88-88",
+    "url": "tel:+77273468888"
+  },
+  {
+    "label": "+7 (778) 046-88-88",
+    "url": "tel:+77780468888"
+  },
+  {
+    "label": "Сравнить",
+    "url": "https://ekt.kz/compare/"
+  },
+  {
+    "label": "Избранное",
+    "url": "https://ekt.kz/favorites/"
+  },
+  {
+    "label": "Оформить заказ",
+    "url": "https://ekt.kz/personal/cart/"
+  },
+  {
+    "label": "",
+    "url": "https://ekt.kz/catalog/?q"
+  },
+  {
+    "label": "17.09.2026 Владислав Волковтың семинары",
+    "url": "https://ekt.kz/news/seminar-vladislav-volkov/"
+  },
+  {
+    "label": "Лоток металлический",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/lotok_metallicheskiy/"
+  },
+  {
+    "label": "12 / 3",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/prozhektory/led-prozhektor-tandem-30-50-100w-8500lm-260kh190kh49-5-2700-4000-5700k-ip65-megalight-10-c3a424cb/"
+  },
+  {
+    "label": "12 / 4",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/prozhektory/?PAGEN_1=2"
+  },
+  {
+    "label": "12 / 5",
+    "url": "https://ekt.kz/catalog/novinki/sec_46b200dc26f8/"
+  },
+  {
+    "label": "new",
+    "url": "https://ekt.kz/catalog/novinki/sec_7652fb35a561/"
+  },
+  {
+    "label": "QUATTRO",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_unit/quattro/"
+  },
+  {
+    "label": "Кабель / Провод",
+    "url": "https://ekt.kz/catalog/kabel_provod/"
+  },
+  {
+    "label": "new",
+    "url": "https://ekt.kz/catalog/novinki/sec_a896c6a4d63e/"
+  },
+  {
+    "label": "Розетки /Выключатели Legrand",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_legrand_mosaic/"
+  },
+  {
+    "label": "new",
+    "url": "https://ekt.kz/catalog/novinki/novinka_kvt/"
+  },
+  {
+    "label": "Каталог продукции",
+    "url": "https://ekt.kz/catalog/"
+  },
+  {
+    "label": "Светильники / Лампы",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/"
+  },
+  {
+    "label": "Низковольтная аппаратура",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/"
+  },
+  {
+    "label": "Кабеленесущие системы",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/"
+  },
+  {
+    "label": "Изделия для монтажа и инструмент",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/"
+  },
+  {
+    "label": "Прочее оборудование",
+    "url": "https://ekt.kz/catalog/prochee_oborudovanie/"
+  },
+  {
+    "label": "Шкафы / Щиты",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/"
+  },
+  {
+    "label": "Розетки/Выключатели/Коробки",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/"
+  },
+  {
+    "label": "Автоматизация",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/"
+  },
+  {
+    "label": "Видеонаблюдение / СКУД / Сигнализация",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/"
+  },
+  {
+    "label": "Инструмент / КИП",
+    "url": "https://ekt.kz/catalog/instrument_kip/"
+  },
+  {
+    "label": "Корзина Электрика",
+    "url": "https://ekt.kz/catalog/korzina_elektrika/"
+  },
+  {
+    "label": "new",
+    "url": "https://ekt.kz/catalog/novinki/novinka_tors_iek/"
+  },
+  {
+    "label": "new",
+    "url": "https://ekt.kz/catalog/novinki/novinka_vyklyuchateli_razediniteli_trekhpozitsionnye_vrt_iek/"
+  },
+  {
+    "label": "new",
+    "url": "https://ekt.kz/catalog/novinki/novinka_vyklyuchateli_kontsevye_iek/"
+  },
+  {
+    "label": "new",
+    "url": "https://ekt.kz/catalog/novinki/novinka_toua_gvozdi_3_0kh25mm/"
+  },
+  {
+    "label": "new",
+    "url": "https://ekt.kz/catalog/novinki/novinka_svetilniki_trio/"
+  },
+  {
+    "label": "new",
+    "url": "https://ekt.kz/catalog/novinki/novinka_rasshirenie_assortimenta_shchity_plastikovye_fort_ip65/"
+  },
+  {
+    "label": "new",
+    "url": "https://ekt.kz/catalog/novinki/novinka_chint/"
+  },
+  {
+    "label": "spec",
+    "url": "https://ekt.kz/catalog/spets_predlozhenie/ponizhenie_dku_do_35/"
+  },
+  {
+    "label": "spec",
+    "url": "https://ekt.kz/catalog/spets_predlozhenie/bravo_luchshie_tseny/"
+  },
+  {
+    "label": "spec",
+    "url": "https://ekt.kz/catalog/spets_predlozhenie/led_dpo_bim_megalight_snizhenie_tsen_ot_10_25/"
+  },
+  {
+    "label": "spec",
+    "url": "https://ekt.kz/catalog/spets_predlozhenie/kabel_asvvgng_ponizhenie_do_20/"
+  },
+  {
+    "label": "spec",
+    "url": "https://ekt.kz/catalog/spets_predlozhenie/rasprodazha_dekraft/"
+  },
+  {
+    "label": "spec",
+    "url": "https://ekt.kz/catalog/spets_predlozhenie/lenta_bandazhnaya_unit/"
+  },
+  {
+    "label": "spec",
+    "url": "https://ekt.kz/catalog/spets_predlozhenie/led_prozhektor_arena_snizhenie_tsen_do_30/"
+  },
+  {
+    "label": "spec",
+    "url": "https://ekt.kz/catalog/spets_predlozhenie/rpc_unit/"
+  },
+  {
+    "label": "spec",
+    "url": "https://ekt.kz/catalog/spets_predlozhenie/snizhenie_tsen_na_vsyu_seriyu_atlas_design/"
+  },
+  {
+    "label": "spec",
+    "url": "https://ekt.kz/catalog/spets_predlozhenie/aktsiya_megalight_spoty_round_i_kvadro/"
+  },
+  {
+    "label": "Новости",
+    "url": "https://ekt.kz/news/"
+  },
+  {
+    "label": "19.08.2026 Новинка: Промрукав",
+    "url": "https://ekt.kz/news/novinka-promrukav/"
+  },
+  {
+    "label": "10.08.2026 Новинка: Воздушный АВ CHINT",
+    "url": "https://ekt.kz/news/novinka-vozdushnyy-av-chint/"
+  },
+  {
+    "label": "06.08.2026 Новинка: Муфты ЭРГ Оптима",
+    "url": "https://ekt.kz/news/novinka-mufty-erg-optima/"
+  },
+  {
+    "label": "31.07.2026 ELEKTROFORUM KAZAKHSTAN",
+    "url": "https://ekt.kz/news/elektroforum-kazakhstan-/"
+  },
+  {
+    "label": "19.05.2026 Новинка: TORS IEK",
+    "url": "https://ekt.kz/news/novinka-tors-iek/"
+  },
+  {
+    "label": "29.04.2026 IEK - летняя акция с гарантированными призами!",
+    "url": "https://ekt.kz/news/iek-letnyaya-aktsiya-s-garantirovannymi-prizami/"
+  },
+  {
+    "label": "13.04.2026 Выключатели-разъединители трехпозиционные ВРТ IEK",
+    "url": "https://ekt.kz/news/vyklyuchateli-razediniteli-trekhpozitsionnye-vrt-iek/"
+  },
+  {
+    "label": "01.04.2026 Корпуса пластиковые с монтажной панелью TETRA",
+    "url": "https://ekt.kz/news/korpusa-plastikovye-s-montazhnoy-panelyu-tetra/"
+  },
+  {
+    "label": "27.03.2026 Новинка: Выключатели концевые IEK",
+    "url": "https://ekt.kz/news/novinka-vyklyuchateli-kontsevye-iek/"
+  },
+  {
+    "label": "26.03.2026 Мастер класс Legrand | Промрукав | ELEKTROPROFI | SDS-REXANT",
+    "url": "https://ekt.kz/news/master-klass-legrand-promrukav-elektroprofi-sds-rexant/"
+  },
+  {
+    "label": "11.03.2026 Светильники TRIO",
+    "url": "https://ekt.kz/news/svetilniki-trio/"
+  },
+  {
+    "label": "05.03.2026 Расширение ассортимента щиты пластиковые FORT IP65",
+    "url": "https://ekt.kz/news/rasshirenie-assortimenta-shchity-plastikovye-fort-ip65/"
+  },
+  {
+    "label": "03.03.2026 CHINT - Дарит подарки!",
+    "url": "https://ekt.kz/news/chint-darit-podarki/"
+  },
+  {
+    "label": "02.03.2026 Новинка: CHINT",
+    "url": "https://ekt.kz/news/novinka-chint/"
+  },
+  {
+    "label": "09.02.2026 Новинка: Щиты UNIBOX и TELECOM",
+    "url": "https://ekt.kz/news/novinka-shchity-unibox-i-telecom/"
+  },
+  {
+    "label": "03.02.2026 Мастер-класс",
+    "url": "https://ekt.kz/news/master-klass/"
+  },
+  {
+    "label": "30.01.2026 Мощный линейный промышленный светильник DEPO",
+    "url": "https://ekt.kz/news/moshchnyy-lineynyy-promyshlennyy-svetilnik-depo/"
+  },
+  {
+    "label": "14.01.2026 Новинка:Электроустановочные изделия серии QUATRO",
+    "url": "https://ekt.kz/news/novinka-elektroustanovochnye-izdeliya-serii-quatro/"
+  },
+  {
+    "label": "14.01.2026 Включайся в жизнь!",
+    "url": "https://ekt.kz/news/vklyuchaysya-v-zhizn/"
+  },
+  {
+    "label": "Вакансии",
+    "url": "https://ekt.kz/about/our-team/vacancy/"
+  },
+  {
+    "label": "Платформа для бизнеса B2B",
+    "url": "https://vde4kag10.ukit.me/"
+  },
+  {
+    "label": "Карьера",
+    "url": "https://ekt.kz/about/our-team/"
+  },
+  {
+    "label": "Сотрудничество",
+    "url": "https://ekt.kz/cooperation/"
+  },
+  {
+    "label": "Доставка и оплата",
+    "url": "https://ekt.kz/checkout-delivery/"
+  },
+  {
+    "label": "AirbaPay",
+    "url": "https://ekt.kz/payments/"
+  },
+  {
+    "label": "",
+    "url": "https://ekt.kz/usloviya-po-rassrochke/"
+  },
+  {
+    "label": "",
+    "url": "https://api.whatsapp.com/send?phone=77782768888&text=%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9%20%D0%B4%D0%B5%D0%BD%D1%8C!"
+  },
+  {
+    "label": "",
+    "url": "https://www.instagram.com/ekt.kz"
+  },
+  {
+    "label": "",
+    "url": "https://www.facebook.com/ekt.kz/"
+  },
+  {
+    "label": "",
+    "url": "https://www.youtube.com/channel/UCpkLMo9LK1xrojY6xni6Vlg"
+  },
+  {
+    "label": "",
+    "url": "https://ekt.kz/3d-tour/"
+  },
+  {
+    "label": "Спец Предложение",
+    "url": "https://ekt.kz/catalog/spets_predlozhenie/"
+  },
+  {
+    "label": "Новинки",
+    "url": "https://ekt.kz/catalog/novinki/"
+  },
+  {
+    "label": "Политика конфиденциальности",
+    "url": "https://ekt.kz/polytic/"
+  },
+  {
+    "label": "Новинка: Forest Megalight",
+    "url": "https://ekt.kz/catalog/novinki/novinka_forest_megalight/"
+  },
+  {
+    "label": "Магазин Подарков",
+    "url": "https://ekt.kz/catalog/magazin_podarkov_1/"
+  },
+  {
+    "label": "Бытовая техника",
+    "url": "https://ekt.kz/catalog/magazin_podarkov_1/bytovaya_tekhnika_/"
+  },
+  {
+    "label": "Инструменты",
+    "url": "https://ekt.kz/catalog/magazin_podarkov_1/instrumenty/"
+  },
+  {
+    "label": "Канцелярские Товары",
+    "url": "https://ekt.kz/catalog/magazin_podarkov_1/kantselyarskie_tovary/"
+  },
+  {
+    "label": "Одежда и аксессуары",
+    "url": "https://ekt.kz/catalog/magazin_podarkov_1/odezhda_i_aksessuary/"
+  },
+  {
+    "label": "Товары для пикника и сада",
+    "url": "https://ekt.kz/catalog/magazin_podarkov_1/tovary_dlya_piknika_i_sada/"
+  },
+  {
+    "label": "Карты PDPD",
+    "url": "https://ekt.kz/catalog/magazin_podarkov_1/karty_pdpd/"
+  },
+  {
+    "label": "Кабель силовой для стационарной прокладки",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_silovoy_dlya_statsionarnoy_prokladki_/"
+  },
+  {
+    "label": "Алюминиевый АВВГ",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_silovoy_dlya_statsionarnoy_prokladki_/alyuminievyy_avvg/"
+  },
+  {
+    "label": "Алюминиевый бронированный АВБШВ",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_silovoy_dlya_statsionarnoy_prokladki_/alyuminievyy_bronirovannyy_avbshv/"
+  },
+  {
+    "label": "Алюминиевый бронированный в изоляции из сшитого полиэтилена АПВББШВ",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_silovoy_dlya_statsionarnoy_prokladki_/alyuminievyy_bronirovannyy_v_izolyatsii_iz_sshitogo_polietilena_apvbbshv/"
+  },
+  {
+    "label": "Алюминиевый с бумажной изоляцией ACБ",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_silovoy_dlya_statsionarnoy_prokladki_/alyuminievyy_s_bumazhnoy_izolyatsiey_acb_/"
+  },
+  {
+    "label": "Медный бронированный ВБШВ",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_silovoy_dlya_statsionarnoy_prokladki_/mednyy_bronirovannyy_vbshv_/"
+  },
+  {
+    "label": "Медный ВВГ",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_silovoy_dlya_statsionarnoy_prokladki_/mednyy_vvg/"
+  },
+  {
+    "label": "Медный негорючий ВВГнг",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_silovoy_dlya_statsionarnoy_prokladki_/mednyy_negoryuchiy_vvgng/"
+  },
+  {
+    "label": "Медный огнестойкий ВВГнг FRLs",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_silovoy_dlya_statsionarnoy_prokladki_/mednyy_ognestoykiy_vvgng_frls_/"
+  },
+  {
+    "label": "Медный с пониженным дымо / газо выделением ВВГнг Ls",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_silovoy_dlya_statsionarnoy_prokladki_/mednyy_s_ponizhennym_dymo_gazo_vydeleniem_vvgng_ls/"
+  },
+  {
+    "label": "Алюминиевый с пониженным дымо / газо выделением АсВВГнг(А)- LS",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_silovoy_dlya_statsionarnoy_prokladki_/alyuminievyy_s_ponizhennym_dymo_gazo_vydeleniem_asvvgng_a_ls/"
+  },
+  {
+    "label": "Кабель и провод для электрических установок",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_i_provod_dlya_elektricheskikh_ustanovok_/"
+  },
+  {
+    "label": "Алюминиевый одножильный АПВ",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_i_provod_dlya_elektricheskikh_ustanovok_/alyuminievyy_odnozhilnyy_apv/"
+  },
+  {
+    "label": "Алюминиевый плоский АППВ",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_i_provod_dlya_elektricheskikh_ustanovok_/alyuminievyy_ploskiy_appv/"
+  },
+  {
+    "label": "Алюминиевый универсальный АПУНП",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_i_provod_dlya_elektricheskikh_ustanovok_/alyuminievyy_universalnyy_apunp/"
+  },
+  {
+    "label": "Медный ПВ",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_i_provod_dlya_elektricheskikh_ustanovok_/mednyy_pv/"
+  },
+  {
+    "label": "Медный плоский ППВ",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_i_provod_dlya_elektricheskikh_ustanovok_/mednyy_ploskiy_ppv/"
+  },
+  {
+    "label": "Медный соединительный гибкий ПВС (TTR)",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_i_provod_dlya_elektricheskikh_ustanovok_/mednyy_soedinitelnyy_gibkiy_pvs_ttr/"
+  },
+  {
+    "label": "Медный соединительный плоский ШВВП",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_i_provod_dlya_elektricheskikh_ustanovok_/mednyy_soedinitelnyy_ploskiy_shvvp_/"
+  },
+  {
+    "label": "Медный универсальный гибкий ПУГНП",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_i_provod_dlya_elektricheskikh_ustanovok_/mednyy_universalnyy_gibkiy_pugnp/"
+  },
+  {
+    "label": "Медный универсальный ПУНП",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_i_provod_dlya_elektricheskikh_ustanovok_/mednyy_universalnyy_punp/"
+  },
+  {
+    "label": "Кабель для нестационарной прокладки",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_dlya_nestatsionarnoy_prokladki_/"
+  },
+  {
+    "label": "Медный резиновый кабель управления РПШ",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_dlya_nestatsionarnoy_prokladki_/mednyy_rezinovyy_kabel_upravleniya_rpsh/"
+  },
+  {
+    "label": "Медный повышенной гибкости с изоляцией из термоэластопласта КГтп",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_dlya_nestatsionarnoy_prokladki_/mednyy_povyshennoy_gibkosti_s_izolyatsiey_iz_termoelastoplasta_kgtp/"
+  },
+  {
+    "label": "Медный резиновый гибкий КГ",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_dlya_nestatsionarnoy_prokladki_/mednyy_rezinovyy_gibkiy_kg/"
+  },
+  {
+    "label": "Кабель контрольный",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_kontrolnyy_/"
+  },
+  {
+    "label": "Медный контрольный негорючий КВВГнг",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_kontrolnyy_/mednyy_kontrolnyy_negoryuchiy_kvvgng/"
+  },
+  {
+    "label": "Медный контрольный экранированный КВВГэ",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_kontrolnyy_/mednyy_kontrolnyy_ekranirovannyy_kvvge/"
+  },
+  {
+    "label": "Провод для воздушных линий передач",
+    "url": "https://ekt.kz/catalog/kabel_provod/provod_dlya_vozdushnykh_liniy_peredach/"
+  },
+  {
+    "label": "Алюминиевый самонесущий изолированный СИП-3",
+    "url": "https://ekt.kz/catalog/kabel_provod/provod_dlya_vozdushnykh_liniy_peredach/alyuminievyy_samonesushchiy_izolirovannyy_sip_3/"
+  },
+  {
+    "label": "Алюминиевый самонесущий изолированный СИП-4",
+    "url": "https://ekt.kz/catalog/kabel_provod/provod_dlya_vozdushnykh_liniy_peredach/alyuminievyy_samonesushchiy_izolirovannyy_sip_4/"
+  },
+  {
+    "label": "Алюминиевый самонесущий изолированный СИП-5",
+    "url": "https://ekt.kz/catalog/kabel_provod/provod_dlya_vozdushnykh_liniy_peredach/alyuminievyy_samonesushchiy_izolirovannyy_sip_5/"
+  },
+  {
+    "label": "Алюминиевый неизолированный А",
+    "url": "https://ekt.kz/catalog/kabel_provod/provod_dlya_vozdushnykh_liniy_peredach/alyuminievyy_neizolirovannyy_a/"
+  },
+  {
+    "label": "Алюминиевый неизолированный со стальный сердечником АС",
+    "url": "https://ekt.kz/catalog/kabel_provod/provod_dlya_vozdushnykh_liniy_peredach/alyuminievyy_neizolirovannyy_so_stalnyy_serdechnikom_as_/"
+  },
+  {
+    "label": "Кабель и провод различного назначения",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_i_provod_razlichnogo_naznacheniya/"
+  },
+  {
+    "label": "Кабель акустический ШПВМ",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_i_provod_razlichnogo_naznacheniya/kabel_akusticheskiy_shpvm/"
+  },
+  {
+    "label": "Кабель греющий",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_i_provod_razlichnogo_naznacheniya/kabel_greyushchiy_dtce/"
+  },
+  {
+    "label": "Провод медный неизолированный гибкий МГ",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_i_provod_razlichnogo_naznacheniya/provod_mednyy_neizolirovannyy_gibkiy_mg/"
+  },
+  {
+    "label": "Провод медный водопогружной ВПП",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_i_provod_razlichnogo_naznacheniya/provod_mednyy_vodopogruzhnoy_vpp/"
+  },
+  {
+    "label": "Провод стальной нагревательный ПНСВ",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_i_provod_razlichnogo_naznacheniya/provod_stalnoy_nagrevatelnyy_pnsv/"
+  },
+  {
+    "label": "Кабель термостойкий медный",
+    "url": "https://ekt.kz/catalog/kabel_provod/kabel_i_provod_razlichnogo_naznacheniya/kabel_termostoykiy_mednyy/"
+  },
+  {
+    "label": "Светильники",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/"
+  },
+  {
+    "label": "Встраиваемые / Накладные светодиодные LED панели",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/vstraivaemye_nakladnye_svetodiodnye_led_paneli/"
+  },
+  {
+    "label": "Накладные светодиодные LED Споты",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/nakladnye_svetodiodnye_led_spoty/"
+  },
+  {
+    "label": "Встраиваемые светодиодные LED Споты",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/vstraivaemye_svetodiodnye_led_spoty/"
+  },
+  {
+    "label": "Встраиваемые и накладные LED ДВО / ДПО",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/vstraivaemye_i_nakladnye_led_dvo_dpo/"
+  },
+  {
+    "label": "Торговое освещение светодиодное LED",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/torgovoe_osveshchenie_svetodiodnoe_led/"
+  },
+  {
+    "label": "Светильники LED Ночники",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/svetilniki_led_nochniki/"
+  },
+  {
+    "label": "Трековое освещение",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/lampy_led_nastolnye/"
+  },
+  {
+    "label": "Бытовое освещение",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/nastennye_svetodiodnye_led_dbo/"
+  },
+  {
+    "label": "Встраиваемые и накладные под лампу GX53",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/vstraivaemye_i_nakladnye_pod_lampu_gx53/"
+  },
+  {
+    "label": "SMART \"Умные светильники\"",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/smart_umnye_svetilniki/"
+  },
+  {
+    "label": "Офисно-административное освещение",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/smart_umnye_lampy/"
+  },
+  {
+    "label": "Подвесные светодиодные LED ДСО",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/podvesnye_svetodiodnye_led_dso/"
+  },
+  {
+    "label": "Накладные люминисцентные ЛБО / ЛПО / ОБН",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/nakladnye_lyuministsentnye_lbo_lpo_obn/"
+  },
+  {
+    "label": "Накладные под энергосберегающую лампу НПО / НПБ / НББ",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/nakladnye_pod_energosberegayushchuyu_lampu_npo_npb_nbb/"
+  },
+  {
+    "label": "Освещение ЖКХ",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_vnutrennego_osveshcheniya/vstraivaemye_lyuministsentnye_lvo/"
+  },
+  {
+    "label": "Светильники герметичные для внутреннего и наружного освещения",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_germetichnye_dlya_vnutrennego_i_naruzhnogo_osveshcheniya/"
+  },
+  {
+    "label": "Накладные светодиодные LED ДПБ/ДПП IP65",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_germetichnye_dlya_vnutrennego_i_naruzhnogo_osveshcheniya/nakladnye_svetodiodnye_led_dpb_ip65/"
+  },
+  {
+    "label": "Подвесные светодиодные LED ДСП IP65",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_germetichnye_dlya_vnutrennego_i_naruzhnogo_osveshcheniya/podvesnye_svetodiodnye_led_dsp_ip65/"
+  },
+  {
+    "label": "Накладные под энергосберегающую лампу НПП / НББ IP65",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_germetichnye_dlya_vnutrennego_i_naruzhnogo_osveshcheniya/nakladnye_pod_energosberegayushchuyu_lampu_npp_nbb_ip65_/"
+  },
+  {
+    "label": "Подвесные люминисцентные ЛСП IP23-IP65",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_germetichnye_dlya_vnutrennego_i_naruzhnogo_osveshcheniya/podvesnye_lyuministsentnye_lsp_ip23_ip65/"
+  },
+  {
+    "label": "Подвесные под энергосберегающую лампу НСП IP23-IP52",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_germetichnye_dlya_vnutrennego_i_naruzhnogo_osveshcheniya/podvesnye_pod_energosberegayushchuyu_lampu_nsp_ip23_ip52/"
+  },
+  {
+    "label": "Лампы",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/lampy/"
+  },
+  {
+    "label": "Светодиодные",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/lampy/svetodiodnye_led_dba/"
+  },
+  {
+    "label": "LED ЛАМПЫ серии \"Свеча\" и \"Свеча на ветру\"",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/lampy/energosberegayushchie_/"
+  },
+  {
+    "label": "Лампы серии T8",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/lampy/lyuminestsentnye/"
+  },
+  {
+    "label": "LED ЛАМПЫ серии A \"Standart\"",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/lampy/prochie/"
+  },
+  {
+    "label": "Антимоскитные",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/lampy/antimoskitnye_/"
+  },
+  {
+    "label": "Люминесцентные ЛАМПЫ серии T8\\",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/lampy/lyuminestsentnye_lampy_serii_t8/"
+  },
+  {
+    "label": "Газоразрядные лампы",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/lampy/gazorazryadnye_lampy/"
+  },
+  {
+    "label": "Светиодные лампы",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/lampy/svetiodnye_lampy/"
+  },
+  {
+    "label": "Светильники для уличного освещения",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_ulichnogo_osveshcheniya/"
+  },
+  {
+    "label": "Консольные светодиодные LED ДКУ IP65",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_ulichnogo_osveshcheniya/konsolnye_svetodiodnye_led_dku_ip65/"
+  },
+  {
+    "label": "Консольные под ртутную лампу РКУ / НКУ IP23",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_ulichnogo_osveshcheniya/konsolnye_pod_rtutnuyu_lampu_rku_nku_ip23/"
+  },
+  {
+    "label": "Консольные РКУ / НКУ / ЖКУ - IP53",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_ulichnogo_osveshcheniya/konsolnye_rku_nku_zhku_ip53/"
+  },
+  {
+    "label": "Опоры, кронштейны, стойки",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_ulichnogo_osveshcheniya/opory_kronshteyny_stoyki/"
+  },
+  {
+    "label": "Садово-парковые",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_ulichnogo_osveshcheniya/sadovo_parkovye_zhtu_ntu_rtu_shary/"
+  },
+  {
+    "label": "Прожекторы",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/prozhektory/"
+  },
+  {
+    "label": "Светодиодные LED ДО IP65",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/prozhektory/svetodiodnye_led_do_ip65/"
+  },
+  {
+    "label": "С датчиком движения LED ДО IP65",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/prozhektory/s_datchikom_dvizheniya_led_do_ip65/"
+  },
+  {
+    "label": "Светильники для аварийного освещения",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_avariynogo_osveshcheniya/"
+  },
+  {
+    "label": "Блоки аварийного питания БАП",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_avariynogo_osveshcheniya/bloki_avariynogo_pitaniya_bap/"
+  },
+  {
+    "label": "Люминисцентные, энергосберегающие ЛБА / НБП",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_avariynogo_osveshcheniya/lyuministsentnye_energosberegayushchie_lba_nbp/"
+  },
+  {
+    "label": "Пиктограммы / Наклейки к светильникам аварийного освещения",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_avariynogo_osveshcheniya/piktogrammy_nakleyki_k_svetilnikam_avariynogo_osveshcheniya/"
+  },
+  {
+    "label": "Светодиодные LED ДБА / ДПА",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_dlya_avariynogo_osveshcheniya/svetodiodnye_led_dba_dpa/"
+  },
+  {
+    "label": "Светильники специального назначения",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_spetsialnogo_naznacheniya/"
+  },
+  {
+    "label": "Бактерицидные ОБН",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_spetsialnogo_naznacheniya/bakteritsidnye_obn/"
+  },
+  {
+    "label": "Взрывозащищенные ВЗГ",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_spetsialnogo_naznacheniya/vzryvozashchishchennye_vzg/"
+  },
+  {
+    "label": "Переносные РВО / УП",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_spetsialnogo_naznacheniya/perenosnye_rvo_up/"
+  },
+  {
+    "label": "Светосигнальные ЗОМ",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_spetsialnogo_naznacheniya/svetosignalnye_zom/"
+  },
+  {
+    "label": "Фонари",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_spetsialnogo_naznacheniya/fonari/"
+  },
+  {
+    "label": "FITO для растений",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/svetilniki_spetsialnogo_naznacheniya/fito_dlya_rasteniy/"
+  },
+  {
+    "label": "Комплектующие к светильникам",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/komplektuyushchie_k_svetilnikam_2/"
+  },
+  {
+    "label": "Датчики движения",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/komplektuyushchie_k_svetilnikam_2/datchiki_dvizheniya_1/"
+  },
+  {
+    "label": "Дросселя / Драйвера",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/komplektuyushchie_k_svetilnikam_2/drosselya_drayvera/"
+  },
+  {
+    "label": "Патроны / Переходники для ламп",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/komplektuyushchie_k_svetilnikam_2/patrony_perekhodniki_dlya_lamp_1/"
+  },
+  {
+    "label": "Стартеры",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/komplektuyushchie_k_svetilnikam_2/startery_1/"
+  },
+  {
+    "label": "Таймеры освещения",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/komplektuyushchie_k_svetilnikam_2/taymery_osveshcheniya_1/"
+  },
+  {
+    "label": "Фотореле",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/komplektuyushchie_k_svetilnikam_2/fotorele_1/"
+  },
+  {
+    "label": "LED Лента",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/led_lenta/"
+  },
+  {
+    "label": "Дополнительное оборудование",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/dopolnitelnoe_oborudovanie/"
+  },
+  {
+    "label": "Управление освещением",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/upravlenie_osveshcheniem/"
+  },
+  {
+    "label": "Модульные автоматические выключатели",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/"
+  },
+  {
+    "label": "ACTI 9 (6-63 А) Schneider Electric",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/acti_9_6_63_a_schneider_electric/"
+  },
+  {
+    "label": "RESI9",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/resi9/"
+  },
+  {
+    "label": "Выключатели разъединительные ВРТ IEK",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/vyklyuchateli_razedinitelnye_vrt_vr32_iek/"
+  },
+  {
+    "label": "EASY9 (6-63 А) Schneider Electric",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/easy9_6_63_a_schneider_electric/"
+  },
+  {
+    "label": "ВА 101 (1-63 А) DEKraft",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/va_101_1_63_a_dekraft/"
+  },
+  {
+    "label": "ВА 105-201 (25-100 А) DEKraft",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/va_105_201_25_100_a_dekraft/"
+  },
+  {
+    "label": "ВА 47-100 (10-125 А) IEK",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/va_47_100_10_125_a_iek/"
+  },
+  {
+    "label": "ВА 47-29 (3-63 А) IEK",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/va_47_29_3_63_a_iek/"
+  },
+  {
+    "label": "ВА 47-29 (3-63 А) Generica",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/va_47_29_3_63_a_generica/"
+  },
+  {
+    "label": "Домовой (6-63 А) Schneider Electric",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/domovoy_6_63_a_schneider_electric/"
+  },
+  {
+    "label": "ARMAT 6 kA (6A - 63A)",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/armat_6_ka_6a_63a/"
+  },
+  {
+    "label": "RX3 4,5 kA (6-63 A) Legrand",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/rx3_4_5_ka_6_63_a_legrand/"
+  },
+  {
+    "label": "TX3 6 kA (6-63 A) Legrand",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/tx3_6_ka_6_63_a_legrand_1/"
+  },
+  {
+    "label": "Автоматические выключатели CHINT",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modulnye_avtomaticheskie_vyklyuchateli/avtomaticheskie_vyklyuchateli_chint/"
+  },
+  {
+    "label": "Силовые автоматические выключатели",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/"
+  },
+  {
+    "label": "EZC 100-250 (80-250 А) Schneider Electric",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/ezc_100_250_80_250_a_schneider_electric/"
+  },
+  {
+    "label": "Optimat E 100 (25-250 А) КЭАЗ",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/optimat_e_100_25_250_a_keaz/"
+  },
+  {
+    "label": "АЕ 2046-АЕ 2056 (10-160 А)КЭАЗ",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/ae_2046_ae_2056_10_160_a_keaz/"
+  },
+  {
+    "label": "АП 50Б (2,5-40 А) КЭАЗ",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/ap_50b_2_5_40_a_keaz/"
+  },
+  {
+    "label": "АП 50Б 3МТ (2,5-63 А) КЭАЗ",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/ap_50b_3mt_2_5_63_a_keaz/"
+  },
+  {
+    "label": "ВА 301-306 (16-800 А) DEKraft",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/va_301_306_16_800_a_dekraft/"
+  },
+  {
+    "label": "ВА 44-33 (40-250 А) IEK",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/va_44_33_40_250_a_iek/"
+  },
+  {
+    "label": "ВА 55-57 (40-1000 А) КЭАЗ",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/va_55_57_40_1000_a_keaz/"
+  },
+  {
+    "label": "ВА 66 (16-250 А) Generica",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/va_66_16_250_a_generica/"
+  },
+  {
+    "label": "ВА 88 (12,5-1600 А) IEK",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/va_88_12_5_1600_a_iek/"
+  },
+  {
+    "label": "EasyPact TVS(9 - 32 A) Schneider Electric",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/easypact_tvs_9_32_a_schneider_electric/"
+  },
+  {
+    "label": "DRX125 MT (10-250 А) Legrand",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx125_mt_10_250_a_legrand/"
+  },
+  {
+    "label": "DRX250 MT (10-250 А) Legrand",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/silovye_avtomaticheskie_vyklyuchateli/drx250_mt_10_250_a_legrand/"
+  },
+  {
+    "label": "Устройство дифференциальной защиты",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/"
+  },
+  {
+    "label": "АВДТ RESI9",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/avdt_resi9/"
+  },
+  {
+    "label": "АВДТ ACTI9 Schneider Electric",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/avdt_acti9_schneider_electric/"
+  },
+  {
+    "label": "ВД1-63 Generica",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/vd1_63_generica/"
+  },
+  {
+    "label": "АВДТ 32 IEK",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/avdt_32_iek/"
+  },
+  {
+    "label": "АВДТ DEKraft",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/avdt_dekraft/"
+  },
+  {
+    "label": "АВДТ EZ9 Schneider Electric",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/avdt_ez9_schneider_electric/"
+  },
+  {
+    "label": "АВДТ Generica",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/avdt_generica/"
+  },
+  {
+    "label": "АД 12 / АД 12М / АД 14 IEK",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/ad_12_ad_12m_ad_14_iek/"
+  },
+  {
+    "label": "АД 12 Generica",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/ad_12_generica/"
+  },
+  {
+    "label": "ВД1-63 IEK",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/vd1_63_iek/"
+  },
+  {
+    "label": "ВД63 Schneider Electric",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/vd63_schneider_electric/"
+  },
+  {
+    "label": "АВДТ DX3 Legrand",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/avdt_dx3_legrand/"
+  },
+  {
+    "label": "АВДТ RX3 Legrand",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/avdt_rx3_legrand/"
+  },
+  {
+    "label": "АВДТ DPX3 Legrand",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/avdt_dpx3_legrand/"
+  },
+  {
+    "label": "ВДТ RX3 Legrand",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/vdt_rx3_legrand/"
+  },
+  {
+    "label": "ВДТ TX3 Legrand",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/vdt_tx3_legrand/"
+  },
+  {
+    "label": "УЗО CHINT",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ustroystvo_differentsialnoy_zashchity/uzo_chint/"
+  },
+  {
+    "label": "Доп устройства к авт.выключателям",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/dop_ustroystva_k_avt_vyklyuchatelyam/"
+  },
+  {
+    "label": "Аварийные контакты ДК / АК",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/dop_ustroystva_k_avt_vyklyuchatelyam/avariynye_kontakty_dk_ak_ak/"
+  },
+  {
+    "label": "Доп.контакты ДК / ДКП",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/dop_ustroystva_k_avt_vyklyuchatelyam/dop_kontakty_dk_dkp/"
+  },
+  {
+    "label": "Привод ручной ПРП-1",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/dop_ustroystva_k_avt_vyklyuchatelyam/privod_ruchnoy_prp_1/"
+  },
+  {
+    "label": "Расцепители РН / РММ",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/dop_ustroystva_k_avt_vyklyuchatelyam/rastsepiteli_rn_rmm/"
+  },
+  {
+    "label": "Электропривод ЭП",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/dop_ustroystva_k_avt_vyklyuchatelyam/elektroprivod_ep/"
+  },
+  {
+    "label": "Аксессуары для автоматических выключателей",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/dop_ustroystva_k_avt_vyklyuchatelyam/aksessuary_dlya_avtomaticheskikh_vyklyuchateley/"
+  },
+  {
+    "label": "Установка пожаротушения",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/dop_ustroystva_k_avt_vyklyuchatelyam/ustanovka_pozharotusheniya/"
+  },
+  {
+    "label": "Пускатели / контакторы",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/puskateli_kontaktory/"
+  },
+  {
+    "label": "Контактор КМ-102 (КМИ)",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/puskateli_kontaktory/kontaktor_km_102_kmi/"
+  },
+  {
+    "label": "Модульные КМ Schneider Electric",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/puskateli_kontaktory/modulnye_km_schneider_electric/"
+  },
+  {
+    "label": "В корпусе с тепловым реле и кнопками КМИ IEK IP54",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/puskateli_kontaktory/v_korpuse_s_teplovym_rele_i_knopkami_kmi_iek_ip54/"
+  },
+  {
+    "label": "В корпусе с тепловым реле и кнопками ПМЛ КЭАЗ IP54",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/puskateli_kontaktory/v_korpuse_s_teplovym_rele_i_knopkami_pml_keaz_ip54_/"
+  },
+  {
+    "label": "Габаритные открытые КМ-103 115-630 A DEKraft IP20",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/puskateli_kontaktory/gabaritnye_otkrytye_km_103_115_630_a_dekraft_ip20/"
+  },
+  {
+    "label": "Габаритные открытые КТИ 115-630 A IEK IP20",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/puskateli_kontaktory/gabaritnye_otkrytye_kti_115_630_a_iek_ip20/"
+  },
+  {
+    "label": "Габаритные открытые ПМЛ 115-630 A КЭАЗ IP 20",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/puskateli_kontaktory/gabaritnye_otkrytye_pml_115_630_a_keaz_ip_20/"
+  },
+  {
+    "label": "Малогабаритные открытые LC1E 9-95 A Schneider Electric IP20",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/puskateli_kontaktory/malogabaritnye_otkrytye_lc1e_9_95_a_schneider_electric_ip20/"
+  },
+  {
+    "label": "Малогабаритные открытые КМ-103 9-95 A DEKraft IP20",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/puskateli_kontaktory/malogabaritnye_otkrytye_km_103_9_95_a_dekraft_ip20/"
+  },
+  {
+    "label": "Малогабаритные открытые КМИ 9-95 A IEK IP20",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/puskateli_kontaktory/malogabaritnye_otkrytye_kmi_9_95_a_iek_ip20/"
+  },
+  {
+    "label": "Малогабаритные открытые ПМЛ 9-95 A КЭАЗ IP20",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/puskateli_kontaktory/malogabaritnye_otkrytye_pml_9_95_a_keaz_ip20/"
+  },
+  {
+    "label": "Механизм блокировки для КМИ",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/puskateli_kontaktory/mekhanizm_blokirovki_dlya_kmi/"
+  },
+  {
+    "label": "Модульные / Ручные Кнопочные ПРК IEK",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/puskateli_kontaktory/modulnye_ruchnye_knopochnye_prk_iek/"
+  },
+  {
+    "label": "Модульные КМ IEK",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/puskateli_kontaktory/modulnye_km_iek/"
+  },
+  {
+    "label": "Модульные МК-103 DEKraft",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/puskateli_kontaktory/modulnye_mk_103_dekraft/"
+  },
+  {
+    "label": "Модульные F&F",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/puskateli_kontaktory/modulnye_f_f/"
+  },
+  {
+    "label": "Контакторы/Пускатели Legrand",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/puskateli_kontaktory/kontaktory_legrand/"
+  },
+  {
+    "label": "Контакторы CHINT",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/puskateli_kontaktory/kontaktory_chint/"
+  },
+  {
+    "label": "Приставки к контакторам",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/pristavki_k_kontaktoram/"
+  },
+  {
+    "label": "ПВЛ / ПКЛ КЭАЗ",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/pristavki_k_kontaktoram/pvl_pkl_keaz/"
+  },
+  {
+    "label": "ПК DEKraft",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/pristavki_k_kontaktoram/pk_dekraft/"
+  },
+  {
+    "label": "ПКИ IEK",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/pristavki_k_kontaktoram/pki_iek/"
+  },
+  {
+    "label": "Ограничители импульсных перенапряжений ОПС",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/ogranichiteli_impulsnykh_perenapryazheniy_ops/"
+  },
+  {
+    "label": "Выключатели нагрузки ВН 32",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/vyklyuchateli_nagruzki_vn_32/"
+  },
+  {
+    "label": "Рубильники",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rubilniki/"
+  },
+  {
+    "label": "Переключатели сеть-генератор",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rubilniki/sec_fbaf68ee262a/"
+  },
+  {
+    "label": "Выключатели разъединители ВР 32",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rubilniki/vyklyuchateli_razediniteli_vr_32/"
+  },
+  {
+    "label": "Разъединители предохранители РПС",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rubilniki/razediniteli_predokhraniteli_rps/"
+  },
+  {
+    "label": "Ящики силовые ЯРВ, ЯБПВУ, ЯРП",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rubilniki/yashchiki_silovye_yarv_yabpvu_yarp/"
+  },
+  {
+    "label": "Основания / предохранители",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/osnovaniya_predokhraniteli_/"
+  },
+  {
+    "label": "Держатели ДП-101 Dekraft / Schneider Electric",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/osnovaniya_predokhraniteli_/derzhateli_dp_101_dekraft_schneider_electric/"
+  },
+  {
+    "label": "Держатели ПН / ППН UNIT",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/osnovaniya_predokhraniteli_/derzhateli_pn_ppn_unit/"
+  },
+  {
+    "label": "Держатели ПН / ППН КЭАЗ",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/osnovaniya_predokhraniteli_/derzhateli_pn_ppn_keaz/"
+  },
+  {
+    "label": "Плавкие вставки ПН-101 Dekraft / Schneider Electric",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/osnovaniya_predokhraniteli_/plavkie_vstavki_pn_101_dekraft_schneider_electric/"
+  },
+  {
+    "label": "Плавкие вставки ППН / ППНИ UNIT",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/osnovaniya_predokhraniteli_/plavkie_vstavki_ppn_ppni_unit/"
+  },
+  {
+    "label": "Плавкие вставки ППН КЭАЗ",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/osnovaniya_predokhraniteli_/plavkie_vstavki_ppn_keaz/"
+  },
+  {
+    "label": "Плавкие вставки ППНИ IEK",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/osnovaniya_predokhraniteli_/plavkie_vstavki_ppni_iek/"
+  },
+  {
+    "label": "Приборы контроля",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/pribory_kontrolya/"
+  },
+  {
+    "label": "Концевые выключатели ВКЛ",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/pribory_kontrolya/kontsevye_vyklyuchateli_vkl_1/"
+  },
+  {
+    "label": "электроизмерительные приборы",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/pribory_kontrolya/elektroizmeritelnye_pribory/"
+  },
+  {
+    "label": "Пакетные выключатели ПВ",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/pribory_kontrolya/paketnye_vyklyuchateli_pv/"
+  },
+  {
+    "label": "Реле времени РВЛ / ORT",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/pribory_kontrolya/rele_vremeni_rvl_ort/"
+  },
+  {
+    "label": "Реле контроля фаз РКФ / РКФН / ORV / ORF",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/pribory_kontrolya/rele_kontrolya_faz_rkf_rkfn_orv_orf/"
+  },
+  {
+    "label": "Реле тепловое РТИ / РТ-103 / РТЛ/NXR",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/pribory_kontrolya/rele_teplovoe_rti_rt_103_rtl/"
+  },
+  {
+    "label": "Кнопки",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/knopki/"
+  },
+  {
+    "label": "Кнопки Schneider Electric",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/knopki/knopki_schneider_electric/"
+  },
+  {
+    "label": "Выключатели кнопочные ВК / ВКИ",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/knopki/vyklyuchateli_knopochnye_vk_vki/"
+  },
+  {
+    "label": "Кнопки управления модульные КМУ",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/knopki/knopki_upravleniya_modulnye_kmu/"
+  },
+  {
+    "label": "Кнопки управления, Переключатели CHINT",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/knopki/knopki_upravleniya_pereklyuchateli_chint/"
+  },
+  {
+    "label": "Индикаторы сигнальные лампы",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/indikatory_signalnye_lampy/"
+  },
+  {
+    "label": "Сигнальные лампы Schneider Electric",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/indikatory_signalnye_lampy/signalnye_lampy_schneider_electric/"
+  },
+  {
+    "label": "Лампы коммутационные ЛК / AD / AL",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/indikatory_signalnye_lampy/lampy_kommutatsionnye_lk_ad_al/"
+  },
+  {
+    "label": "Лампы модульные ЛС",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/indikatory_signalnye_lampy/lampy_modulnye_ls/"
+  },
+  {
+    "label": "Сигнальные лампы Legrand",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/indikatory_signalnye_lampy/signalnye_lampy_legrand/"
+  },
+  {
+    "label": "Переключатели",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/pereklyuchateli/"
+  },
+  {
+    "label": "Переключатели Schneider Electric",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/pereklyuchateli/pereklyuchateli_schneider_electric/"
+  },
+  {
+    "label": "C поворотной рукояткой ANC / ANCLR",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/pereklyuchateli/c_povorotnoy_rukoyatkoy_anc_anclr/"
+  },
+  {
+    "label": "C поворотным ключем AKS",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/pereklyuchateli/c_povorotnym_klyuchem_aks/"
+  },
+  {
+    "label": "Посты кнопочные",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/posty_knopochnye/"
+  },
+  {
+    "label": "С выключателем кнопочным ПКЕ IP54",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/posty_knopochnye/s_vyklyuchatelem_knopochnym_pke_ip54/"
+  },
+  {
+    "label": "Стационарные пустые КП",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/posty_knopochnye/statsionarnye_pustye_kp/"
+  },
+  {
+    "label": "Тельферные с выключателем кнопочным ПКТ IP54",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/posty_knopochnye/telfernye_s_vyklyuchatelem_knopochnym_pkt_ip54/"
+  },
+  {
+    "label": "Трансформаторы",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/transformatory/"
+  },
+  {
+    "label": "Трансформаторы ТТИ",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/transformatory/transformatory_tti_40_tti_a/"
+  },
+  {
+    "label": "Понижающие трансформаторы ЯТП",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/transformatory/ponizhayushchie_transformatory_yatp/"
+  },
+  {
+    "label": "Трансформаторы Т-0,66",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/transformatory/transformatory_t_0_66/"
+  },
+  {
+    "label": "Компактный базовый блок Schneider Electric",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/kompaktnyy_bazovyy_blok_schneider_electric/"
+  },
+  {
+    "label": "Модуль ТМЗ Schneider Electric",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/modul_tmz_schneider_electric/"
+  },
+  {
+    "label": "Реле Schneider Electric",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_schneider_electric/"
+  },
+  {
+    "label": "Реле Zelio Logic",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/rele_zelio_logic/"
+  },
+  {
+    "label": "Сенсорные панели Schneider Electric",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/sensornye_paneli_schneider_electric/"
+  },
+  {
+    "label": "Кабель-канал",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/kabel_kanal/"
+  },
+  {
+    "label": "Перфорированый IEK",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/kabel_kanal/perforirovanyy_iek/"
+  },
+  {
+    "label": "Магистральный",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/kabel_kanal/magistralnyy/"
+  },
+  {
+    "label": "Напольный кабель-канал Праймер",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/kabel_kanal/napolnyy_kabel_kanal_praymer/"
+  },
+  {
+    "label": "Аксессуары к кабель-каналу",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_kabel_kanalu/"
+  },
+  {
+    "label": "Внешниий угол КМН",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_kabel_kanalu/vneshniiy_ugol_kmn/"
+  },
+  {
+    "label": "Внутренний угол КМВ",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_kabel_kanalu/vnutrenniy_ugol_kmv/"
+  },
+  {
+    "label": "Заглушка КМЗ",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_kabel_kanalu/zaglushka_kmz/"
+  },
+  {
+    "label": "Поворот 90 КМП",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_kabel_kanalu/povorot_90_kmp/"
+  },
+  {
+    "label": "Соединитель на стык КМС",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_kabel_kanalu/soedinitel_na_styk_kms/"
+  },
+  {
+    "label": "Т-образный угол КМТ",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_kabel_kanalu/t_obraznyy_ugol_kmt/"
+  },
+  {
+    "label": "Модули / Вставки",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_kabel_kanalu/moduli_vstavki/"
+  },
+  {
+    "label": "Аксессуары и комплектующие для кабель-каналов DLP Legrand",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_kabel_kanalu/aksessuary_i_komplektuyushchie_dlya_kabel_kanalov_dlp_legran/"
+  },
+  {
+    "label": "Аксессуары для труб ПНД / ПВХ",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_dlya_trub_pnd_pvkh/"
+  },
+  {
+    "label": "Крепеж-клипса для труб",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_dlya_trub_pnd_pvkh/krepezh_klipsa_dlya_trub/"
+  },
+  {
+    "label": "Муфта вводная для трубы",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_dlya_trub_pnd_pvkh/mufta_vvodnaya_dlya_truby/"
+  },
+  {
+    "label": "Муфта соединительная для трубы",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_dlya_trub_pnd_pvkh/mufta_soedinitelnaya_dlya_truby/"
+  },
+  {
+    "label": "Тройник соединительный для трубы",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_dlya_trub_pnd_pvkh/troynik_soedinitelnyy_dlya_truby/"
+  },
+  {
+    "label": "Угол 90 соединительный для трубы",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_dlya_trub_pnd_pvkh/ugol_90_soedinitelnyy_dlya_truby/"
+  },
+  {
+    "label": "Металлорукав",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/metallorukav/"
+  },
+  {
+    "label": "Изолированный с протяжкой",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/metallorukav/izolirovannyy_s_protyazhkoy/"
+  },
+  {
+    "label": "Неизолированный с протяжкой",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/metallorukav/neizolirovannyy_s_protyazhkoy_/"
+  },
+  {
+    "label": "Скоба к металлорукаву",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/metallorukav/skoba_k_metallorukavu/"
+  },
+  {
+    "label": "Скоба для монтажного пистолета",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/metallorukav/skoba_dlya_montazhnogo_pistoleta/"
+  },
+  {
+    "label": "Перфорированный/неперфорированный",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/lotok_metallicheskiy/perforirovannyy_neperforirovannyy/"
+  },
+  {
+    "label": "Лестничный",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/lotok_metallicheskiy/lestnichnyy/"
+  },
+  {
+    "label": "Проволочный",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/lotok_metallicheskiy/provolochnyy/"
+  },
+  {
+    "label": "Аксессуары к лоткам",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_lotkam/"
+  },
+  {
+    "label": "Гайки / анкера / метизы",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_lotkam/gayki_ankera_metizy/"
+  },
+  {
+    "label": "Держатели / подвесы / скобы потолочные",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_lotkam/derzhateli_podvesy_skoby_potolochnye/"
+  },
+  {
+    "label": "Заглушки",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_lotkam/zaglushki/"
+  },
+  {
+    "label": "Крестовины",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_lotkam/krestoviny/"
+  },
+  {
+    "label": "Кронштейны",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_lotkam/kronshteyny/"
+  },
+  {
+    "label": "Крышки на лотки и аксессуары",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_lotkam/kryshki_na_lotki_i_aksessuary/"
+  },
+  {
+    "label": "Переходники",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_lotkam/perekhodniki/"
+  },
+  {
+    "label": "Пластина соеденительная",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_lotkam/plastina_soedenitelnaya/"
+  },
+  {
+    "label": "Площадка / Перегородка",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_lotkam/ploshchadka_peregorodka/"
+  },
+  {
+    "label": "Поворот 90 вертикальный внешний",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_lotkam/povorot_90_vertikalnyy_vneshniy_/"
+  },
+  {
+    "label": "Поворот 90 вертикальный внутренний",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_lotkam/povorot_90_vertikalnyy_vnutrenniy/"
+  },
+  {
+    "label": "Прочие / фланец / консоль / монтажные элементы",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_lotkam/prochie_flanets_konsol_montazhnye_elementy/"
+  },
+  {
+    "label": "Разветвитель Т-образный",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/aksessuary_k_lotkam/razvetvitel_t_obraznyy/"
+  },
+  {
+    "label": "Напольные системы",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/napolnye_sistemy/"
+  },
+  {
+    "label": "Коробки напольные и комплектующие",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/napolnye_sistemy/korobki_napolnye_i_komplektuyushchie/"
+  },
+  {
+    "label": "Напольные розетки",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/napolnye_sistemy/napolnye_rozetki/"
+  },
+  {
+    "label": "Трубы",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/truby/"
+  },
+  {
+    "label": "Гофрированная ПВХ с протяжкой",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/truby/gofrirovannaya_pvkh_s_protyazhkoy/"
+  },
+  {
+    "label": "Гофрированная ПНД с протяжкой",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/truby/gofrirovannaya_pnd_s_protyazhkoy/"
+  },
+  {
+    "label": "Гофрированная двустенная ПНД с протяжкой",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/truby/gofrirofannaya_dvustennaya_pnd_s_protyazhkoy/"
+  },
+  {
+    "label": "Жёсткая гладкая ПВХ",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/truby/zhyestkaya_gladkaya_pvkh/"
+  },
+  {
+    "label": "Жёсткая гладкая ПНД",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/truby/zhyestkaya_gladkaya_pnd/"
+  },
+  {
+    "label": "Термоусадочная ТУТ",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/truby/termousadochnaya_tut/"
+  },
+  {
+    "label": "Трубка кембрик",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/truby/trubka_kembrik/"
+  },
+  {
+    "label": "Бандаж",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/truby/bandazh/"
+  },
+  {
+    "label": "Термоусадочная ТТК",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/truby/termousadochnaya_ttk/"
+  },
+  {
+    "label": "Багет потолочный",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/baget_potolochnyy/"
+  },
+  {
+    "label": "Прямой монтаж (Промрукав)",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/pryamoy_montazh_promrukav/"
+  },
+  {
+    "label": "Держатели кабельные",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/pryamoy_montazh_promrukav/derzhateli_kabelnye/"
+  },
+  {
+    "label": "Клипсы под гофру",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/pryamoy_montazh_promrukav/klipsy_pod_gofru/"
+  },
+  {
+    "label": "Площадки под пистолет",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/pryamoy_montazh_promrukav/ploshchadki_pod_pistolet/"
+  },
+  {
+    "label": "Скобы усиленные",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/pryamoy_montazh_promrukav/skoby_usilennye/"
+  },
+  {
+    "label": "Изолента",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/izolenta/"
+  },
+  {
+    "label": "Шины",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/shiny/"
+  },
+  {
+    "label": "Алюминиевые полосы",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/shiny/alyuminievye_polosy/"
+  },
+  {
+    "label": "Медные полосы",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/shiny/mednye_polosy/"
+  },
+  {
+    "label": "Нулевые",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/shiny/nulevye/"
+  },
+  {
+    "label": "Соединительные",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/shiny/soedinitelnye_/"
+  },
+  {
+    "label": "СИЗы",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/sizy/"
+  },
+  {
+    "label": "Клеммники",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/klemmniki/"
+  },
+  {
+    "label": "Зажимы ЗНИ/БЗН и комлектующие",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/klemmniki/zazhimy_zni_bzn_i_komlektuyushchie/"
+  },
+  {
+    "label": "Колодки винтовые ЗВИ",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/klemmniki/kolodki_vintovye_zvi/"
+  },
+  {
+    "label": "Колодки клеммные",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/klemmniki/kolodki_klemmnye/"
+  },
+  {
+    "label": "Клемма силовая",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/klemmniki/klemma_silovaya_/"
+  },
+  {
+    "label": "Колодки карболитовые",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/klemmniki/kolodki_karbolitovye_prokhodnye_tv_ts_tvs/"
+  },
+  {
+    "label": "Ответитель питания ОВ",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/klemmniki/otvetitel_pitaniya_ov/"
+  },
+  {
+    "label": "Сжимы",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/klemmniki/szhimy/"
+  },
+  {
+    "label": "Строительно-монтажные СМК",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/klemmniki/stroitelno_montazhnye_smk/"
+  },
+  {
+    "label": "Сальники",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/salniki/"
+  },
+  {
+    "label": "DIN-рейки и комплектующие",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/din_reyki_i_komplektuyushchie/"
+  },
+  {
+    "label": "Муфты",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/mufty/"
+  },
+  {
+    "label": "Соединительные",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/mufty/soedinitelnye/"
+  },
+  {
+    "label": "Концевые",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/mufty/kontsevye/"
+  },
+  {
+    "label": "Гильзы",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/gilzy/"
+  },
+  {
+    "label": "Алюминиевые",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/gilzy/alyuminievye/"
+  },
+  {
+    "label": "Медные",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/gilzy/mednye/"
+  },
+  {
+    "label": "Соединители СБ",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/gilzy/soediniteli_sb_/"
+  },
+  {
+    "label": "медно-лужёный",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/gilzy/medno_luzhyenyy/"
+  },
+  {
+    "label": "Наконечники",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/nakonechniki/"
+  },
+  {
+    "label": "Кабельные",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/nakonechniki/sec_bc48387a826a/"
+  },
+  {
+    "label": "Алюминиевые",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/nakonechniki/alyuminievye_/"
+  },
+  {
+    "label": "Медно - луженные",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/nakonechniki/medno_luzhennye/"
+  },
+  {
+    "label": "Медные",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/nakonechniki/mednye_/"
+  },
+  {
+    "label": "Монтажные низковольтные",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/nakonechniki/montazhnye_nizkovoltnye/"
+  },
+  {
+    "label": "Со срывными болтами",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/nakonechniki/so_sryvnymi_boltami/"
+  },
+  {
+    "label": "Изоляторы SM",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/izolyatory_sm/"
+  },
+  {
+    "label": "Арматура для СИП",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/armatura_dlya_sip/"
+  },
+  {
+    "label": "Вертлюги",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/armatura_dlya_sip/vertlyugi/"
+  },
+  {
+    "label": "Гильзы изолированные ГИФ",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/armatura_dlya_sip/gilzy_izolirovannye_gif/"
+  },
+  {
+    "label": "Зажимы анкерные",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/armatura_dlya_sip/zazhimy_ankernye/"
+  },
+  {
+    "label": "Зажимы поддерживающие",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/armatura_dlya_sip/zazhimy_podderzhivayushchie/"
+  },
+  {
+    "label": "Комплекты крепления",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/armatura_dlya_sip/komplekty_krepleniya/"
+  },
+  {
+    "label": "Зажимы прокалывающие",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/armatura_dlya_sip/zazhimy_prokalyvayushchie/"
+  },
+  {
+    "label": "Крюки бандажные",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/armatura_dlya_sip/kryuki_bandazhnye/"
+  },
+  {
+    "label": "Лента бандажная и комплектующие",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/armatura_dlya_sip/lenta_bandazhnaya_i_komplektuyushchie/"
+  },
+  {
+    "label": "Арматура для АС ЛЭП",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/armatura_dlya_as_lep/"
+  },
+  {
+    "label": "Зажимы аппаратные",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/armatura_dlya_as_lep/zazhimy_apparatnye/"
+  },
+  {
+    "label": "Зажимы натяжные",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/armatura_dlya_as_lep/zazhimy_natyazhnye/"
+  },
+  {
+    "label": "Зажимы плашечные",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/armatura_dlya_as_lep/zazhimy_plashechnye/"
+  },
+  {
+    "label": "Изоляторы и комплектующие",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/armatura_dlya_as_lep/izolyatory_i_komplektuyushchie/"
+  },
+  {
+    "label": "Разъединитель РЛНД/РВ3",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/armatura_dlya_as_lep/razedinitel_rlnd_rv3/"
+  },
+  {
+    "label": "Крепёж / стяжки",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/krepyezh_styazhki/"
+  },
+  {
+    "label": "Площадки",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/krepyezh_styazhki/ploshchadki/"
+  },
+  {
+    "label": "Скобы",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/krepyezh_styazhki/skoby/"
+  },
+  {
+    "label": "Хомуты",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/krepyezh_styazhki/khomuty/"
+  },
+  {
+    "label": "Стяжки",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/krepyezh_styazhki/styazhki_fortisflex/"
+  },
+  {
+    "label": "Крепёжные изделия",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/krepyezh_styazhki/krepyezhnye_izdeliya/"
+  },
+  {
+    "label": "Ручной инструмент",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/ruchnoy_instrument/"
+  },
+  {
+    "label": "Клещи обжимные",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/ruchnoy_instrument/kleshchi_obzhimnye/"
+  },
+  {
+    "label": "Измерительные рулетки / Лазерные дальномеры",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/ruchnoy_instrument/izmeritelnye_ruletki_lazernye_dalnomery/"
+  },
+  {
+    "label": "Кусачки / кабелерез",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/ruchnoy_instrument/kusachki_kabelerez/"
+  },
+  {
+    "label": "Набор электрика",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/ruchnoy_instrument/nabor_elektrika/"
+  },
+  {
+    "label": "Ножи / съемники изоляции",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/ruchnoy_instrument/nozhi_semniki_izolyatsii/"
+  },
+  {
+    "label": "Ножницы / стриппер",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/ruchnoy_instrument/nozhnitsy_stripper/"
+  },
+  {
+    "label": "Отвертки",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/ruchnoy_instrument/otvertki_2/"
+  },
+  {
+    "label": "Пассатижи / круглогубцы",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/ruchnoy_instrument/passatizhi_kruglogubtsy/"
+  },
+  {
+    "label": "Инструмент КВТ",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/ruchnoy_instrument/instrument_kvt/"
+  },
+  {
+    "label": "Прессы гидравлические",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/ruchnoy_instrument/pressy_gidravlicheskie/"
+  },
+  {
+    "label": "Маркеры",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/markery/"
+  },
+  {
+    "label": "Бирки",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/birki/"
+  },
+  {
+    "label": "Лента сигнальная",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/lenta_signalnaya/"
+  },
+  {
+    "label": "BOSH оснастка",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/bosh_osnastka/"
+  },
+  {
+    "label": "МУФТЫ КВТ / Fortiflex вводная",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/mufty_kvt_fortiflex_vvodnaya/"
+  },
+  {
+    "label": "Стабилизаторы",
+    "url": "https://ekt.kz/catalog/prochee_oborudovanie/stabilizatory/"
+  },
+  {
+    "label": "Механические",
+    "url": "https://ekt.kz/catalog/prochee_oborudovanie/stabilizatory/mekhanicheskie/"
+  },
+  {
+    "label": "Электронные",
+    "url": "https://ekt.kz/catalog/prochee_oborudovanie/stabilizatory/elektronnye/"
+  },
+  {
+    "label": "Заземление и молниезащита",
+    "url": "https://ekt.kz/catalog/prochee_oborudovanie/sec_351008568620/"
+  },
+  {
+    "label": "Тепловые электрические пушки",
+    "url": "https://ekt.kz/catalog/prochee_oborudovanie/teplovye_elektricheskie_pushki/"
+  },
+  {
+    "label": "Лестницы",
+    "url": "https://ekt.kz/catalog/prochee_oborudovanie/lestnitsy/"
+  },
+  {
+    "label": "Сварочное оборудование",
+    "url": "https://ekt.kz/catalog/prochee_oborudovanie/svarochnoe_oborudovanie/"
+  },
+  {
+    "label": "Щиты металлические",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/shchity_metallicheskie/"
+  },
+  {
+    "label": "Автоматический ввод резерва АВР",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/shchity_metallicheskie/avtomaticheskiy_vvod_rezerva_avr/"
+  },
+  {
+    "label": "Вводно-распределительные устройства ВРУ",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/shchity_metallicheskie/vvodno_raspredelitelnye_ustroystva_vru/"
+  },
+  {
+    "label": "Кабельные Ящики КЯ",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/shchity_metallicheskie/kabelnye_yashchiki_kya/"
+  },
+  {
+    "label": "Распределительные силовые ШРС",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/shchity_metallicheskie/raspredelitelnye_silovye_shrs/"
+  },
+  {
+    "label": "Распределительные модульные ЩРН / ЩРВ",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/shchity_metallicheskie/raspredelitelnye_modulnye_shchrn_shchrv/"
+  },
+  {
+    "label": "Учетно - распределительные ЩУРн / ЩУРв",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/shchity_metallicheskie/uchetno_raspredelitelnye_shchurn_shchurv/"
+  },
+  {
+    "label": "Учета ЩУ",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/shchity_metallicheskie/ucheta_shchu/"
+  },
+  {
+    "label": "Этажные ШЭ",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/shchity_metallicheskie/etazhnye_she/"
+  },
+  {
+    "label": "С монтажной панелью ЩМП",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/shchity_metallicheskie/s_montazhnoy_panelyu_shchmp/"
+  },
+  {
+    "label": "Щиты пластиковые",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/shchity_plastikovye/"
+  },
+  {
+    "label": "Распределительные встриваемые ЩРВп",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/shchity_plastikovye/raspredelitelnye_vstrivaemye_shchrvp/"
+  },
+  {
+    "label": "Распределительные накладные ЩРНп",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/shchity_plastikovye/raspredelitelnye_nakladnye_shchrnp/"
+  },
+  {
+    "label": "Учета накладные ЩУРНп",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/shchity_plastikovye/ucheta_nakladnye_shchurnp/"
+  },
+  {
+    "label": "С монтажной панелью ЩМПп",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/shchity_plastikovye/s_montazhnoy_panelyu_shchmpp/"
+  },
+  {
+    "label": "Бокс КМПн",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/shchity_plastikovye/boks_kmpn/"
+  },
+  {
+    "label": "Замки для щитов",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/zamki_dlya_shchitov/"
+  },
+  {
+    "label": "Шкафы / Полки / Панели / Аксессуары",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/shkafy_polki_paneli_aksessuary/"
+  },
+  {
+    "label": "Вентиляторы, Фильтры шкафные",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/ventilyatory_filtry_shkafnye_1/"
+  },
+  {
+    "label": "Обогреватели шкафные",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/obogrevateli_shkafnye_/"
+  },
+  {
+    "label": "Термостаты, Гигростаты шкафные",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/termostaty_gigrostaty_shkafnye/"
+  },
+  {
+    "label": "Устройства компенсации давления",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/ustroystva_kompensatsii_davleniya/"
+  },
+  {
+    "label": "Розетки / Выключатели UNIT",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_unit/"
+  },
+  {
+    "label": "VITA",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_unit/vita/"
+  },
+  {
+    "label": "ASTRA",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_unit/astra/"
+  },
+  {
+    "label": "TERRA NEW",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_unit/terra_new/"
+  },
+  {
+    "label": "SMART",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_unit/smart/"
+  },
+  {
+    "label": "ELEMENT",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_unit/element/"
+  },
+  {
+    "label": "ROCK",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_unit/rock/"
+  },
+  {
+    "label": "Розетки / Выключатели Systeme Electric",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_systeme_electric/"
+  },
+  {
+    "label": "AQUA",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_systeme_electric/aqua/"
+  },
+  {
+    "label": "ATLAS",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_systeme_electric/atlas/"
+  },
+  {
+    "label": "WESSEN 59",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_systeme_electric/wessen_59/"
+  },
+  {
+    "label": "WESSEN 59 (Бук / Матовый / Сосна / Детская серия)",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_systeme_electric/wessen_59_buk_matovyy_sosna_detskaya_seriya/"
+  },
+  {
+    "label": "ПРИМА-б",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_systeme_electric/prima_b/"
+  },
+  {
+    "label": "РОНДО IP44",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_systeme_electric/rondo_ip44/"
+  },
+  {
+    "label": "ХИТ",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_systeme_electric/khit/"
+  },
+  {
+    "label": "ЭТЮД",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_systeme_electric/etyud/"
+  },
+  {
+    "label": "ЭТЮД IP44",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_systeme_electric/etyud_ip44/"
+  },
+  {
+    "label": "Blanca",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_systeme_electric/blanca1/"
+  },
+  {
+    "label": "GLOSSA",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_systeme_electric/glossa_1/"
+  },
+  {
+    "label": "ARTGALLERY",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_systeme_electric/artgallery/"
+  },
+  {
+    "label": "ATLAS IP 54",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_systeme_electric/atlas_ip_54/"
+  },
+  {
+    "label": "Розетки / Выключатели IEK",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_iek_/"
+  },
+  {
+    "label": "AQUATIC",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_iek_/aquatic/"
+  },
+  {
+    "label": "ГЕРМЕС",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_iek_/germes/"
+  },
+  {
+    "label": "КВАРТА",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_iek_/kvarta/"
+  },
+  {
+    "label": "ОКТАВА",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_iek_/oktava/"
+  },
+  {
+    "label": "Розетки, Вилки для плиты",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_iek_/rozetki_vilki_dlya_plity/"
+  },
+  {
+    "label": "ФОРС",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_iek_/fors/"
+  },
+  {
+    "label": "BOLERO",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_iek_/bolero/"
+  },
+  {
+    "label": "BRITE",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_iek_/brite/"
+  },
+  {
+    "label": "TORS",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_iek_/tors/"
+  },
+  {
+    "label": "Прочие Розетки / Выключатели",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/prochie_rozetki_vyklyuchateli_/"
+  },
+  {
+    "label": "Розетки / Выключатели LEZARD",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/prochie_rozetki_vyklyuchateli_/rozetki_vyklyuchateli_lezard/"
+  },
+  {
+    "label": "Розетки / Выключатели Schneider Electric",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/prochie_rozetki_vyklyuchateli_/rozetki_vyklyuchateli_schneider_electric/"
+  },
+  {
+    "label": "Розетки /Выключатели Legrand Mosai",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_legrand_mosaic/sec_fc1455509dff/"
+  },
+  {
+    "label": "Розетки / Выключатели Legrand Niloe Step",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_legrand_mosaic/rozetki_vyklyuchateli_legrand/"
+  },
+  {
+    "label": "Розетки / Выключатели Legrand SUNO",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_legrand_mosaic/rozetki_vyklyuchateli_legrand_suno/"
+  },
+  {
+    "label": "Розетки/Выключатели Legrand Forix",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/rozetki_vyklyuchateli_legrand_mosaic/rozetki_vyklyuchateli_legrand_forix/"
+  },
+  {
+    "label": "Вилки универсальные",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/vilki_universalnye/"
+  },
+  {
+    "label": "Тройники универсальные / Адаптера",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/troyniki_universalnye_adaptera/"
+  },
+  {
+    "label": "Силовые Разъёмы",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/silovye_razyemy/"
+  },
+  {
+    "label": "Папа-мама каучук",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/silovye_razyemy/papa_mama_kauchuk/"
+  },
+  {
+    "label": "Папа-мама пластик",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/silovye_razyemy/papa_mama_plastik/"
+  },
+  {
+    "label": "Разъёмы штеккеры",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/silovye_razyemy/razyemy_shtekkery/"
+  },
+  {
+    "label": "Папа-мама пластик EXPERT",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/silovye_razyemy/papa_mama_plastik_expert/"
+  },
+  {
+    "label": "Розетки влагозащищенные",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/silovye_razyemy/rozetki_vlagozashchishchennye/"
+  },
+  {
+    "label": "Удлинители / Шнуры",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/udliniteli_shnury/"
+  },
+  {
+    "label": "Колодки",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/kolodki/"
+  },
+  {
+    "label": "Без заземления",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/kolodki/bez_zazemleniya/"
+  },
+  {
+    "label": "С заземлением",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/kolodki/s_zazemleniem/"
+  },
+  {
+    "label": "Сетевые фильтры",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/setevye_filtry/"
+  },
+  {
+    "label": "Катушки / Рамки",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/katushki_ramki/"
+  },
+  {
+    "label": "Звонки Кнопки",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/zvonki_knopki/"
+  },
+  {
+    "label": "Коробки",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/"
+  },
+  {
+    "label": "Под автоматы",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/pod_avtomaty/"
+  },
+  {
+    "label": "Установочные / Подрозетники",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/ustanovochnye_podrozetniki/"
+  },
+  {
+    "label": "Распределительные",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/raspredelitelnye_1/"
+  },
+  {
+    "label": "Прямой монтаж",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/korobki/pryamoy_montazh/"
+  },
+  {
+    "label": "Блоки АВР/ CHINT/ IEK",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/bloki_avr_chint_iek/"
+  },
+  {
+    "label": "Воздушные автоматические выключатели",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/vozdushnye_avtomaticheskie_vyklyuchateli/"
+  },
+  {
+    "label": "Панели оператора",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/paneli_operatora/"
+  },
+  {
+    "label": "Преобразователи Давления IEK",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/preobrazovateli_davleniya_iek_/"
+  },
+  {
+    "label": "Устройства Плавного Пуска IEK",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/ustroystva_plavnogo_puska_iek_/"
+  },
+  {
+    "label": "Блоки питания Schneider Electric, IEK",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/bloki_pitaniya_schneider_electric_iek/"
+  },
+  {
+    "label": "Автоматы светочувствительные",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/avtomaty_svetochuvstvitelnye/"
+  },
+  {
+    "label": "Ограничители мощности",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/ogranichiteli_moshchnosti/"
+  },
+  {
+    "label": "Переключатели фаз",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/pereklyuchateli_faz/"
+  },
+  {
+    "label": "Регуляторы температуры",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/regulyatory_temperatury/"
+  },
+  {
+    "label": "Указатели мощности,напряжения",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/ukazateli_moshchnosti_napryazheniya/"
+  },
+  {
+    "label": "Устройства управления резервным питанием",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/ustroystva_upravleniya_rezervnym_pitaniem/"
+  },
+  {
+    "label": "Преобразователь частоты",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/preobrazovatel_chastoty_oni_schneider_iek/"
+  },
+  {
+    "label": "Программируемое реле",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/programmiruemoe_rele/"
+  },
+  {
+    "label": "Программируемое логическое реле ONI",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/programmiruemoe_rele/programmiruemoe_logicheskoe_rele_oni/"
+  },
+  {
+    "label": "Реле задержки выключения IEK",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/programmiruemoe_rele/rele_zaderzhki_vyklyucheniya_iek_/"
+  },
+  {
+    "label": "Реле импульсное F&F, IEK",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/programmiruemoe_rele/rele_impulsnoe_f_f_iek_/"
+  },
+  {
+    "label": "Реле интерфейсное IEK",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/programmiruemoe_rele/rele_interfeysnoe_iek_/"
+  },
+  {
+    "label": "Реле циклические IEK",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/programmiruemoe_rele/rele_tsiklicheskie_iek/"
+  },
+  {
+    "label": "Реле контроля напряжения F&F, IEK",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/programmiruemoe_rele/rele_kontrolya_napryazheniya_f_f_iek_/"
+  },
+  {
+    "label": "Реле контроля уровня",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/programmiruemoe_rele/rele_kontrolya_urovnya_/"
+  },
+  {
+    "label": "Реле нагрузки",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/programmiruemoe_rele/rele_nagruzki/"
+  },
+  {
+    "label": "Реле общего назначения IEK",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/programmiruemoe_rele/rele_obshchego_naznacheniya_iek_/"
+  },
+  {
+    "label": "Реле промежуточное IEK",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/programmiruemoe_rele/rele_promezhutochnoe_iek_/"
+  },
+  {
+    "label": "Реле твердотельные IEK",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/programmiruemoe_rele/rele_tverdotelnye_iek_/"
+  },
+  {
+    "label": "Розетки для реле IEK",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/programmiruemoe_rele/rozetki_dlya_rele_iek_/"
+  },
+  {
+    "label": "IT оборудование",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/it_oborudovanie/"
+  },
+  {
+    "label": "Щитовое оборудование ITK и аксессуары",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/it_oborudovanie/shchitovoe_oborudovanie_itk_i_aksessuary/"
+  },
+  {
+    "label": "Кабель связи UTP / FTP / CCA",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/it_oborudovanie/kabel_svyazi_utp_ftp_cca/"
+  },
+  {
+    "label": "Мониторы",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/monitory/"
+  },
+  {
+    "label": "Кабель для видеонаблюдения RG",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/kabel_dlya_videonablyudeniya_rg/"
+  },
+  {
+    "label": "Видео / Аудио Домофоны, Панели",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/video_audio_domofony_paneli/"
+  },
+  {
+    "label": "Домофоны Hikvision",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/video_audio_domofony_paneli/domofony_hikvision/"
+  },
+  {
+    "label": "Видеокамеры",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/videokamery/"
+  },
+  {
+    "label": "Видеокамеры Ezviz",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/videokamery/videokamery_ezviz/"
+  },
+  {
+    "label": "Видеокамеры Hikvision",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/videokamery/videokamery_hikvision/"
+  },
+  {
+    "label": "Видеокамеры HiWatch",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/videokamery/videokamery_hiwatch/"
+  },
+  {
+    "label": "Видеокамеры Optimus",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/videokamery/videokamery_optimus/"
+  },
+  {
+    "label": "Видеокамеры Uniview",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/videokamery/videokamery_uniview/"
+  },
+  {
+    "label": "Видеокамеры Imou",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/videokamery/videokamery_imou/"
+  },
+  {
+    "label": "Видеорегистраторы",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/videoregistratory/"
+  },
+  {
+    "label": "Видеорегистраторы Hikvision",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/videoregistratory/videoregistratory_hikvision/"
+  },
+  {
+    "label": "Видеорегистраторы HiWatch",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/videoregistratory/videoregistratory_hiwatch/"
+  },
+  {
+    "label": "Видеорегистраторы Uniview",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/videoregistratory/videoregistratory_uniview/"
+  },
+  {
+    "label": "Доводчики Дверные, Замки",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/dovodchiki_dvernye_zamki_/"
+  },
+  {
+    "label": "Коммутаторы",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/kommutatory_/"
+  },
+  {
+    "label": "Адаптеры / Разветвители / Разъемы",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/adaptery_razvetviteli_razemy/"
+  },
+  {
+    "label": "Сигнализация",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/signalizatsiya/"
+  },
+  {
+    "label": "Ajax",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/signalizatsiya/ajax/"
+  },
+  {
+    "label": "Жесткие Диски",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/zhestkie_diski/"
+  },
+  {
+    "label": "Умный дом (Датчики,Пульты Управления,Розетки)",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/umnyy_dom_datchiki_pulty_upravleniya_rozetki/"
+  },
+  {
+    "label": "Прочее (ИБП Аккумуляторы Сплиттер)",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/prochee_ibp_akkumulyatory_splitter/"
+  },
+  {
+    "label": "Указатели высокого напряжения",
+    "url": "https://ekt.kz/catalog/instrument_kip/ukazateli_vysokogo_napryazheniya/"
+  },
+  {
+    "label": "BOSCH Электроинструмент / Оснастка",
+    "url": "https://ekt.kz/catalog/instrument_kip/bosch_elektroinstrument_osnastka/"
+  },
+  {
+    "label": "КИП Счетчики, Амперметры, Мультиметры",
+    "url": "https://ekt.kz/catalog/instrument_kip/kip_schetchiki_ampermetry_multimetry/"
+  },
+  {
+    "label": "Измерительные приборы",
+    "url": "https://ekt.kz/catalog/instrument_kip/kip_schetchiki_ampermetry_multimetry/izmeritelnye_pribory_iek/"
+  },
+  {
+    "label": "Счетчики/Коробки",
+    "url": "https://ekt.kz/catalog/instrument_kip/kip_schetchiki_ampermetry_multimetry/schetchiki_korobki/"
+  },
+  {
+    "label": "Ручной инструмент",
+    "url": "https://ekt.kz/catalog/instrument_kip/ruchnoy_instrument_3/"
+  },
+  {
+    "label": "Клещи токоизмерительные / Тестеры",
+    "url": "https://ekt.kz/catalog/instrument_kip/ruchnoy_instrument_3/kleshchi_tokoizmeritelnye_testery/"
+  },
+  {
+    "label": "Дальномеры",
+    "url": "https://ekt.kz/catalog/instrument_kip/ruchnoy_instrument_3/dalnomery/"
+  },
+  {
+    "label": "Инструмент для снятия изоляции",
+    "url": "https://ekt.kz/catalog/instrument_kip/ruchnoy_instrument_3/instrument_dlya_snyatiya_izolyatsii_1/"
+  },
+  {
+    "label": "Инструмент слесарно-монтажный",
+    "url": "https://ekt.kz/catalog/instrument_kip/ruchnoy_instrument_3/instrument_slesarno_montazhnyy_1/"
+  },
+  {
+    "label": "Наборы инструментов",
+    "url": "https://ekt.kz/catalog/instrument_kip/ruchnoy_instrument_3/nabory_instrumentov_1/"
+  },
+  {
+    "label": "Ножницы / Кабелерезы",
+    "url": "https://ekt.kz/catalog/instrument_kip/ruchnoy_instrument_3/nozhnitsy_kabelerezy/"
+  },
+  {
+    "label": "Отвертки",
+    "url": "https://ekt.kz/catalog/instrument_kip/ruchnoy_instrument_3/otvertki_1/"
+  },
+  {
+    "label": "Пассатижи/Бокорезы/Длинногубцы",
+    "url": "https://ekt.kz/catalog/instrument_kip/ruchnoy_instrument_3/passatizhi_bokorezy_dlinnogubtsy/"
+  },
+  {
+    "label": "Пресс гидравлический",
+    "url": "https://ekt.kz/catalog/instrument_kip/ruchnoy_instrument_3/press_gidravlicheskiy/"
+  },
+  {
+    "label": "Пресс-клещи / Рулетка / Лебедка / Ключ",
+    "url": "https://ekt.kz/catalog/instrument_kip/ruchnoy_instrument_3/press_kleshchi_ruletka_lebedka_klyuch/"
+  },
+  {
+    "label": "Защитное оборудование / Экипировка для Электрика",
+    "url": "https://ekt.kz/catalog/instrument_kip/zashchitnoe_oborudovanie_ekipirovka_dlya_elektrika/"
+  },
+  {
+    "label": "Протяжки кабельные / Чулки",
+    "url": "https://ekt.kz/catalog/instrument_kip/zashchitnoe_oborudovanie_ekipirovka_dlya_elektrika/protyazhki_kabelnye_chulki/"
+  },
+  {
+    "label": "Экипировка монтажника",
+    "url": "https://ekt.kz/catalog/instrument_kip/zashchitnoe_oborudovanie_ekipirovka_dlya_elektrika/ekipirovka_montazhnika/"
+  },
+  {
+    "label": "Боты диэлектрические",
+    "url": "https://ekt.kz/catalog/instrument_kip/zashchitnoe_oborudovanie_ekipirovka_dlya_elektrika/boty_dielektricheskie/"
+  },
+  {
+    "label": "Заземление переносное",
+    "url": "https://ekt.kz/catalog/instrument_kip/zashchitnoe_oborudovanie_ekipirovka_dlya_elektrika/zazemlenie_perenosnoe/"
+  },
+  {
+    "label": "Коврики диэлектрические",
+    "url": "https://ekt.kz/catalog/instrument_kip/zashchitnoe_oborudovanie_ekipirovka_dlya_elektrika/kovriki_dielektricheskie/"
+  },
+  {
+    "label": "Лазы универсальные",
+    "url": "https://ekt.kz/catalog/instrument_kip/zashchitnoe_oborudovanie_ekipirovka_dlya_elektrika/lazy_universalnye/"
+  },
+  {
+    "label": "Маски сварочные",
+    "url": "https://ekt.kz/catalog/instrument_kip/zashchitnoe_oborudovanie_ekipirovka_dlya_elektrika/maski_svarochnye/"
+  },
+  {
+    "label": "Перчатки диэлектрические / Краги",
+    "url": "https://ekt.kz/catalog/instrument_kip/zashchitnoe_oborudovanie_ekipirovka_dlya_elektrika/perchatki_dielektricheskie_kragi/"
+  },
+  {
+    "label": "Изолента и Термоусадка",
+    "url": "https://ekt.kz/catalog/korzina_elektrika/izolenta_i_termousadka/"
+  },
+  {
+    "label": "Кабель-Провод",
+    "url": "https://ekt.kz/catalog/korzina_elektrika/kabel_provod_2/"
+  },
+  {
+    "label": "Инструменты",
+    "url": "https://ekt.kz/catalog/korzina_elektrika/instrumenty_1/"
+  },
+  {
+    "label": "Клеммы, гильзы, наконечники",
+    "url": "https://ekt.kz/catalog/korzina_elektrika/klemmy_gilzy_nakonechniki/"
+  },
+  {
+    "label": "Коробки и подрозетники",
+    "url": "https://ekt.kz/catalog/korzina_elektrika/korobki_i_podrozetniki/"
+  },
+  {
+    "label": "Крепежи - хомуты, площадки",
+    "url": "https://ekt.kz/catalog/korzina_elektrika/krepezhi_khomuty_ploshchadki/"
+  },
+  {
+    "label": "Трубы и аксессуары для напольного монтажа",
+    "url": "https://ekt.kz/catalog/korzina_elektrika/truby_i_aksessuary_dlya_napolnogo_montazha/"
+  },
+  {
+    "label": "Трубы и аксессуары для потолочного монтажа",
+    "url": "https://ekt.kz/catalog/korzina_elektrika/truby_i_aksessuary_dlya_potolochnogo_montazha/"
+  }
+]

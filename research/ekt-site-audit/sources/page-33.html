@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html xml:lang="ru" lang="ru">
+<head>
+
+<!--begin::Fonts -->
+
+
+<!--end::Fonts -->
+
+<title>Авторизация</title>
+    
+<!-- begin::Global Config(global config for global JS sciprts) -->
+
+<!-- end::Global Config -->
+
+<!--begin::Custom -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script data-skip-moving="true">(function(w, d, n) {var cl = "bx-core";var ht = d.documentElement;var htc = ht ? ht.className : undefined;if (htc === undefined || htc.indexOf(cl) !== -1){return;}var ua = n.userAgent;if (/(iPad;)|(iPhone;)/i.test(ua)){cl += " bx-ios";}else if (/Windows/i.test(ua)){cl += ' bx-win';}else if (/Macintosh/i.test(ua)){cl += " bx-mac";}else if (/Linux/i.test(ua) && !/Android/i.test(ua)){cl += " bx-linux";}else if (/Android/i.test(ua)){cl += " bx-android";}cl += (/(ipad|iphone|android|mobile|touch)/i.test(ua) ? " bx-touch" : " bx-no-touch");cl += w.devicePixelRatio && w.devicePixelRatio >= 2? " bx-retina": " bx-no-retina";if (/Safari/i.test(ua) && !/Chrome/i.test(ua)){cl += " bx-safari";}else if (/AppleWebKit/.test(ua)){cl += " bx-chrome";}else if (/Opera/.test(ua)){cl += " bx-opera";}else if (/Firefox/.test(ua)){cl += " bx-firefox";}ht.className = htc ? htc + " " + cl : cl;})(window, document, navigator);</script>
+
+
+<link href="/bitrix/cache/css/pr/b2bportal_default_2020_11_18_09_27_14/page_dbcb02ab275083210458139e935c90eb/page_dbcb02ab275083210458139e935c90eb_v1.css?178763518620218" type="text/css" rel="stylesheet"/>
+<link href="/bitrix/cache/css/pr/b2bportal_default_2020_11_18_09_27_14/template_e5d6309fafa17fd0fc98fb8b67092ea4/template_e5d6309fafa17fd0fc98fb8b67092ea4_v1.css?17876348562108254" type="text/css" rel="stylesheet" data-template-style="true"/>
+
+
+<script type="extension/settings" data-extension="main.baseline">{"collectData":false,"helpUrl":"https:\/\/helpdesk.bitrix24.ru\/open\/code_27229654\/","helpCode":"redirect=detail\u0026code=27229654"}</script>
+
+
+
+
+
+
+
+
+
+<link href="https://pro.ekt.kz/favicon.ico" rel="shortcut icon"  type="image/x-icon">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit">
+<meta property="og:url" content="http://pro.ekt.kz:443/">
+
+
+
+
+</head>
+<body class=" kt-login-v2--enabled kt-header--static kt-header-mobile--fixed kt-subheader--enabled kt-subheader--transparent kt-aside--enabled kt-aside--fixed kt-page--loading">
+
+	<span class="kt-aside__brand-aside-toggler"></span>	<div class="kt-grid kt-grid--ver kt-grid--root">
+		<div class="kt-grid__item kt-grid__item--fluid kt-grid  kt-grid kt-grid--hor kt-login-v2" id="kt_login_v2">
+			<!--begin::Item-->
+			<div class="kt-grid__item  kt-grid--hor">
+				<!--begin::Heade-->
+				<div class="kt-login-v2__head">
+					<div class="kt-login-v2__logo">
+						<a href="/"><img src="/include/logo.svg" srcset="/include/logo.svg 2x"></a>
+					</div>	
+					<div class="kt-login-v2__signup">
+	<!-- <span>Еще не являетесь нашим клиентом?</span>
+	<a href="/?register=yes" class="kt-link kt-font-brand">Регистрация</a> -->
+</div>
+				</div>
+				<!--begin::Head-->
+			</div>
+			<!--end::Item-->
+
+			<!--begin::Item-->
+			<div class="kt-grid__item  kt-grid  kt-grid--ver  kt-grid__item--fluid">
+<!--begin::Body-->
+<div class="kt-login-v2__body">
+
+	<!--begin::Wrapper-->
+	<div class="kt-login-v2__wrapper">
+		<div class="kt-login-v2__container">
+			
+			<div class="kt-login-v2__container__reg">
+				<a href="/?register=yes" class="btn btn-brand btn-elevate btn-pill">Регистрация</a>
+			</div>
+						
+			<div class="kt-login-v2__title">
+				<h3>Авторизация</h3>
+			</div>				 
+
+			<!--begin::Form-->
+			<form class="kt-login-v2__form kt-form" name="form_auth" method="post" target="_top" action="/?login=yes" autocomplete="off">
+
+				<input type="hidden" name="AUTH_FORM" value="Y" />
+				<input type="hidden" name="TYPE" value="AUTH" />
+
+									<input type="hidden" name="backurl" value="/" />
+				
+				
+				
+				
+				<div class="form-group">
+					<input class="form-control" type="text" name="USER_LOGIN" maxlength="255" placeholder="Логин" autocomplete="off">
+				</div>
+
+				<div class="form-group">
+											<input class="form-control" type="password" name="USER_PASSWORD" maxlength="255" placeholder="Пароль" autocomplete="off">
+									</div>
+
+				
+								<div class="form-group form-group-last">
+					<div class="form-control-plaintext">
+						<label class="kt-checkbox mb-0">
+							<input type="checkbox" id="USER_REMEMBER" name="USER_REMEMBER" value="Y" checked="checked"> Запомнить							<span></span>
+						</label>
+					</div>
+				</div>
+				
+				<!--begin::Action-->
+				<div class="kt-login-v2__actions">
+											<a href="/?forgot_password=yes" class="kt-link kt-link--brand">Забыли пароль?</a> 
+										<button type="submit" class="btn btn-brand btn-elevate btn-pill" name="Login" value="Войти">Войти</button>
+				</div>
+				<!--end::Action-->
+
+			</form>
+			<!--end::Form-->
+		</div>
+	</div>
+	<!--end::Wrapper-->
+
+	<!--begin::Image-->
+	<div class="kt-login-v2__image">
+		<img src="/bitrix/templates/b2bportal_default_2020_11_18_09_27_14/components/bitrix/system.auth.authorize/.default/images/bg_icon.svg" alt="">
+	</div>
+	<!--begin::Image-->
+
+</div>
+<!--end::Body-->
+
+
+
+			</div>
+			<div class="kt-grid__item">
+				<div class="kt-login-v2__footer">
+					<div class="kt-login-v2__link">
+						<div class="footer-menu">
+
+<a href="/about/" target="_blank" class="kt-footer__menu-link kt-link">О компании</a>
+<a href="/agreement/" target="_blank" class="kt-footer__menu-link kt-link">Соглашение</a>
+<a href="/contacts/" target="_blank" class="kt-footer__menu-link kt-link">Контакты</a>
+<a href="https://ekt.kz/about/information/" target="_blank" class="kt-footer__menu-link kt-link">Полезная информация</a>
+<a href="https://ekt.kz/about/information/articles/" target="_blank" class="kt-footer__menu-link kt-link">Статьи</a>
+<a href="https://ekt.kz/about/information/video/" target="_blank" class="kt-footer__menu-link kt-link">Видео</a>
+</div>					</div>
+
+					<div class="kt-login-v2__info">
+						
+2020&nbsp;&copy;&nbsp;<a href="https://ekt.kz/" target="_blank" class="kt-link">Группа компаний Электрокомплект</a>					</div>			
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+<a href="" target="_blank" rel="noreferrer noopener" style="position:absolute; left:-9999px;">Платформа АЛЬФА:B2B</a><script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script><script>
+	WebFont.load({
+		google: {
+            "families":[
+                // "Poppins:300,400,500,600,700"
+                "Roboto:300,400,500,600,700",
+                "Montserrat:300,400,500,600,700"
+            ]
+        },
+		active: function() {
+			sessionStorage.fonts = true;
+		}
+    });
+</script><script>
+var KTAppOptions = {
+    "colors": {
+        "state": {
+            "brand": "#5578eb",
+            "metal": "#c4c5d6",
+            "light": "#ffffff",
+            "accent": "#00c5dc",
+            "primary": "#5867dd",
+            "success": "#34bfa3",
+            "info": "#36a3f7",
+            "warning": "#ffb822",
+            "danger": "#fd3995",
+            "focus": "#9816f4"
+        },
+        "base": {
+            "label": [
+                "#c5cbe3",
+                "#a1a8c3",
+                "#3d4465",
+                "#3e4466"
+            ],
+            "shape": [
+                "#f0f3ff",
+                "#d9dffa",
+                "#afb4d4",
+                "#646c9a"
+            ]
+        }
+    }
+};
+</script><script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({"MAIN_BASELINE_BROWSER_OUTDATED":"Вы используете устаревшую версию браузера. Обновите его для безопасной и стабильной работы","MAIN_BASELINE_DETAILS":"Подробнее","MAIN_BASELINE_CLOSE":"Закрыть"});</script><script src="/bitrix/js/main/baseline/dist/baseline.bundle.js?17821573436900"></script><script>(window.BX||top.BX).message({"JS_CORE_LOADING":"Загрузка...","JS_CORE_NO_DATA":"- Нет данных -","JS_CORE_WINDOW_CLOSE":"Закрыть","JS_CORE_WINDOW_EXPAND":"Развернуть","JS_CORE_WINDOW_NARROW":"Свернуть в окно","JS_CORE_WINDOW_SAVE":"Сохранить","JS_CORE_WINDOW_CANCEL":"Отменить","JS_CORE_WINDOW_CONTINUE":"Продолжить","JS_CORE_H":"ч","JS_CORE_M":"м","JS_CORE_S":"с","JSADM_AI_HIDE_EXTRA":"Скрыть лишние","JSADM_AI_ALL_NOTIF":"Показать все","JSADM_AUTH_REQ":"Требуется авторизация!","JS_CORE_WINDOW_AUTH":"Войти","JS_CORE_IMAGE_FULL":"Полный размер"});</script><script src="/bitrix/js/main/core/core.js?1787634846334249"></script><script>BX.Runtime.registerExtension({"name":"main.core","namespace":"BX","loaded":true});</script>
+<script>BX.setJSList(["\/bitrix\/js\/main\/core\/core_ajax.js","\/bitrix\/js\/main\/core\/core_promise.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/loadext\/loadext.js","\/bitrix\/js\/main\/loadext\/extension.js","\/bitrix\/js\/main\/polyfill\/promise\/js\/promise.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/includes\/js\/includes.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/ui\/polyfill\/closest\/js\/closest.js","\/bitrix\/js\/main\/polyfill\/fill\/main.polyfill.fill.js","\/bitrix\/js\/main\/polyfill\/find\/js\/find.js","\/bitrix\/js\/main\/polyfill\/matches\/js\/matches.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/core\/core.js","\/bitrix\/js\/main\/polyfill\/intersectionobserver\/js\/intersectionobserver.js","\/bitrix\/js\/main\/lazyload\/dist\/lazyload.bundle.js","\/bitrix\/js\/main\/polyfill\/core\/dist\/polyfill.bundle.js","\/bitrix\/js\/main\/parambag\/dist\/parambag.bundle.js"]);
+</script>
+<script>BX.Runtime.registerExtension({"name":"pull.protobuf","namespace":"BX","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"rest.client","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"pull_server_enabled":"Y","pull_config_timestamp":1751021400,"shared_worker_allowed":"Y","pull_guest_mode":"N","pull_guest_user_id":0,"pull_worker_mtime":1781889099});(window.BX||top.BX).message({"PULL_OLD_REVISION":"Для продолжения корректной работы с сайтом необходимо перезагрузить страницу."});</script>
+<script>BX.Runtime.registerExtension({"name":"pull.client","namespace":"BX","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"pull","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"sotbit.smartsearchpro.analytics","namespace":"window","loaded":true});</script>
+<script>BX.Runtime.registerExtension({"name":"dd","namespace":"window","loaded":true});</script>
+<script>(window.BX||top.BX).message({"LANGUAGE_ID":"ru","FORMAT_DATE":"DD.MM.YYYY","FORMAT_DATETIME":"DD.MM.YYYY HH:MI:SS","COOKIE_PREFIX":"SPEEDER","SERVER_TZ_OFFSET":"18000","UTF_MODE":"Y","SITE_ID":"pr","SITE_DIR":"\/","USER_ID":"","SERVER_TIME":1790161270,"USER_TZ_OFFSET":0,"USER_TZ_AUTO":"Y","bitrix_sessid":"72c5f47920a57bc1607bf8ac5fcd0175"});</script><script src="/bitrix/js/pull/protobuf/protobuf.js?1781889099274055"></script>
+<script src="/bitrix/js/pull/protobuf/model.js?178188909970928"></script>
+<script src="/bitrix/js/rest/client/rest.client.js?178188909917414"></script>
+<script src="/bitrix/js/pull/client/pull.client.js?178188909983861"></script>
+<script src="/bitrix/js/sotbit.smartsearch/customselect.js?17818891053143"></script>
+<script src="/bitrix/js/sotbit/smartsearchpro/analytics/index.js?17821578431082"></script>
+<script src="/bitrix/js/main/core/core_dd.js?17821572473614"></script>
+<script src="/bitrix/js/main/file_upload_agent.js?178215723216482"></script>
+<script src="/bitrix/js/logictim.balls/basket.js?17818891043317"></script>
+<script>BX.setCSSList(["\/bitrix\/templates\/b2bportal_default_2020_11_18_09_27_14\/assets\/theme\/css\/pages\/login\/login-v2.css","\/bitrix\/templates\/b2bportal_default_2020_11_18_09_27_14\/assets\/theme\/css\/pages\/wizards\/wizard-v3.css","\/bitrix\/templates\/b2bportal_default_2020_11_18_09_27_14\/assets\/theme\/plugins\/custom\/fullcalendar\/fullcalendar.bundle.css","\/bitrix\/templates\/b2bportal_default_2020_11_18_09_27_14\/assets\/theme\/plugins\/global\/plugins.bundle.css","\/bitrix\/templates\/b2bportal_default_2020_11_18_09_27_14\/assets\/theme\/css\/style.bundle.css","\/bitrix\/templates\/b2bportal_default_2020_11_18_09_27_14\/assets\/theme\/css\/skins\/aside\/navy.css","\/bitrix\/templates\/b2bportal_default_2020_11_18_09_27_14\/assets\/css\/main.css","\/bitrix\/templates\/b2bportal_default_2020_11_18_09_27_14\/assets\/css\/custom.css","\/bitrix\/templates\/b2bportal_default_2020_11_18_09_27_14\/components\/sotbit\/search.title\/pro\/style.css","\/bitrix\/templates\/b2bportal_default_2020_11_18_09_27_14\/components\/sotbit\/search.title\/pro\/bitrix\/main.file.input\/.default\/style.css","\/bitrix\/templates\/b2bportal_default_2020_11_18_09_27_14\/template_styles.css"]);</script>
+<script>
+					(function () {
+						"use strict";
+
+						var counter = function ()
+						{
+							var cookie = (function (name) {
+								var parts = ("; " + document.cookie).split("; " + name + "=");
+								if (parts.length == 2) {
+									try {return JSON.parse(decodeURIComponent(parts.pop().split(";").shift()));}
+									catch (e) {}
+								}
+							})("BITRIX_CONVERSION_CONTEXT_pr");
+
+							if (cookie && cookie.EXPIRE >= BX.message("SERVER_TIME"))
+								return;
+
+							var request = new XMLHttpRequest();
+							request.open("POST", "/bitrix/tools/conversion/ajax_counter.php", true);
+							request.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+							request.send(
+								"SITE_ID="+encodeURIComponent("pr")+
+								"&sessid="+encodeURIComponent(BX.bitrix_sessid())+
+								"&HTTP_REFERER="+encodeURIComponent(document.referrer)
+							);
+						};
+
+						if (window.frameRequestStart === true)
+							BX.addCustomEvent("onFrameDataReceived", counter);
+						else
+							BX.ready(counter);
+					})();
+				</script>
+<script>
+		window.__INITIAL_STATE__ = {
+			baskets: [],
+			stocks: {
+				data: {},
+				amounts: {}
+			},
+			cart: {
+				addedIds: new Set([]),
+				quantityByIds: [],
+			}
+		}
+	</script>
+<script type="text/javascript">var arLogictimBonusCart = {'SITE_ID':'pr','LANGUAGE_ID':'ru'};</script>
+<script src="/bitrix/templates/b2bportal_default_2020_11_18_09_27_14/assets/theme/plugins/global/plugins.bundle.js?17818890533885828"></script>
+<script src="/bitrix/templates/b2bportal_default_2020_11_18_09_27_14/assets/theme/js/scripts.bundle.js?1781889053324815"></script>
+<script src="/bitrix/templates/b2bportal_default_2020_11_18_09_27_14/assets/theme/plugins/custom/fullcalendar/fullcalendar.bundle.js?1781889053661304"></script>
+<script src="/bitrix/templates/b2bportal_default_2020_11_18_09_27_14/assets/vendors/vue/vue.js?1781889053353406"></script>
+<script src="/bitrix/templates/b2bportal_default_2020_11_18_09_27_14/assets/vendors/vue/vuex.js?178188905331427"></script>
+<script src="/bitrix/templates/b2bportal_default_2020_11_18_09_27_14/assets/js/main.js?17818890531290884"></script>
+<script src="/bitrix/templates/b2bportal_default_2020_11_18_09_27_14/assets/js/custom.js?178754454119018"></script>
+<script src="/local/js/smartsearch_cookie_limit.js?17818894261399"></script>
+<script src="/bitrix/components/sotbit/search.title/script.js?178188911110659"></script>
+<script src="/bitrix/components/bitrix/search.title/script.js?178215706310573"></script>
+<script src="/bitrix/templates/b2bportal_default_2020_11_18_09_27_14/components/sotbit/search.title/pro/bitrix/main.file.input/.default/script.js?178188905321312"></script>
+<script src="/bitrix/templates/b2bportal_default_2020_11_18_09_27_14/components/redsign/vbasket.select/global/js/component.js?17818890539554"></script>
+<script src="/bitrix/templates/b2bportal_default_2020_11_18_09_27_14/components/redsign/b2bportal.sale.personal.profile.select/.default/js/component.js?17818890533375"></script>
+
+<script type="text/javascript">
+try{document.form_auth.USER_LOGIN.focus();}catch(e){}
+</script><script>
+		if ((window.$ || {}).validator)
+	{
+		$.extend( $.validator.messages, {
+			required: 'Это поле необходимо заполнить.',
+			remote: 'Пожалуйста, введите правильное значение.',
+			email: 'Пожалуйста, введите корректный адрес электронной почты.',
+			url: 'Пожалуйста, введите корректный URL.',
+			date: 'Пожалуйста, введите корректную дату.',
+			dateISO: 'Пожалуйста, введите корректную дату в формате ISO.',
+			number: 'Пожалуйста, введите число.',
+			digits: 'Пожалуйста, вводите только цифры.',
+			creditcard: 'Пожалуйста, введите правильный номер кредитной карты.',
+			equalTo: 'Пожалуйста, введите такое же значение ещё раз.',
+			extension: 'Пожалуйста, выберите файл с правильным расширением.',
+			maxlength: $.validator.format("Пожалуйста, введите не больше {0} символов."),
+			minlength: $.validator.format("Пожалуйста, введите не меньше {0} символов."),
+			rangelength: $.validator.format("Пожалуйста, введите значение длиной от {0} до {1} символов."),
+			range: $.validator.format("Пожалуйста, введите число от {0} до {1}."),
+			max: $.validator.format("Пожалуйста, введите число, меньшее или равное {0}."),
+			min: $.validator.format("Пожалуйста, введите число, большее или равное {0}.")
+		});
+	}
+	</script></body>
+</html>

@@ -1,0 +1,193 @@
+[
+  {
+    "label": "Покупателям",
+    "url": "https://ekt.kz/about/",
+    "file": "page-01.html"
+  },
+  {
+    "label": "Щиты под заказ",
+    "url": "https://ekt.kz/shields/",
+    "file": "page-02.html"
+  },
+  {
+    "label": "Полезная информация",
+    "url": "https://ekt.kz/about/information/",
+    "file": "page-03.html"
+  },
+  {
+    "label": "Часто задаваемые вопросы",
+    "url": "https://ekt.kz/about/faq/",
+    "file": "page-04.html"
+  },
+  {
+    "label": "Как сделать заказ",
+    "url": "https://ekt.kz/about/howto/",
+    "file": "page-05.html"
+  },
+  {
+    "label": "Онлайн оплата",
+    "url": "https://ekt.kz/Cloudpayments/",
+    "file": "page-06.html"
+  },
+  {
+    "label": "Возврат и обмен",
+    "url": "https://ekt.kz/return/",
+    "file": "page-07.html"
+  },
+  {
+    "label": "Контакты",
+    "url": "https://ekt.kz/about/contacts/",
+    "file": "page-08.html"
+  },
+  {
+    "label": "КАЗ",
+    "url": "https://ekt.kz/kz/",
+    "file": "page-09.html"
+  },
+  {
+    "label": "Каталог продукции",
+    "url": "https://ekt.kz/catalog/",
+    "file": "page-10.html"
+  },
+  {
+    "label": "Новости",
+    "url": "https://ekt.kz/news/",
+    "file": "page-11.html"
+  },
+  {
+    "label": "Вакансии",
+    "url": "https://ekt.kz/about/our-team/vacancy/",
+    "file": "page-12.html"
+  },
+  {
+    "label": "Карьера",
+    "url": "https://ekt.kz/about/our-team/",
+    "file": "page-13.html"
+  },
+  {
+    "label": "Сотрудничество",
+    "url": "https://ekt.kz/cooperation/",
+    "file": "page-14.html"
+  },
+  {
+    "label": "Доставка и оплата",
+    "url": "https://ekt.kz/checkout-delivery/",
+    "file": "page-15.html"
+  },
+  {
+    "label": "AirbaPay",
+    "url": "https://ekt.kz/payments/",
+    "file": "page-16.html"
+  },
+  {
+    "label": "",
+    "url": "https://ekt.kz/usloviya-po-rassrochke/",
+    "file": "page-17.html"
+  },
+  {
+    "label": "",
+    "url": "https://ekt.kz/3d-tour/",
+    "file": "page-18.html"
+  },
+  {
+    "label": "Политика конфиденциальности",
+    "url": "https://ekt.kz/polytic/",
+    "file": "page-19.html"
+  },
+  {
+    "label": "Магазин Подарков",
+    "url": "https://ekt.kz/catalog/magazin_podarkov_1/",
+    "depth": 1,
+    "parent_url": null,
+    "file": "page-20.html"
+  },
+  {
+    "label": "Кабель / Провод",
+    "url": "https://ekt.kz/catalog/kabel_provod/",
+    "depth": 1,
+    "parent_url": null,
+    "file": "page-21.html"
+  },
+  {
+    "label": "Светильники / Лампы",
+    "url": "https://ekt.kz/catalog/svetilniki_lampy/",
+    "depth": 1,
+    "parent_url": null,
+    "file": "page-22.html"
+  },
+  {
+    "label": "Низковольтная аппаратура",
+    "url": "https://ekt.kz/catalog/nizkovoltnaya_apparatura/",
+    "depth": 1,
+    "parent_url": null,
+    "file": "page-23.html"
+  },
+  {
+    "label": "Кабеленесущие системы",
+    "url": "https://ekt.kz/catalog/kabelenesushchie_sistemy/",
+    "depth": 1,
+    "parent_url": null,
+    "file": "page-24.html"
+  },
+  {
+    "label": "Изделия для монтажа и инструмент",
+    "url": "https://ekt.kz/catalog/izdeliya_dlya_montazha_i_instrument/",
+    "depth": 1,
+    "parent_url": null,
+    "file": "page-25.html"
+  },
+  {
+    "label": "Прочее оборудование",
+    "url": "https://ekt.kz/catalog/prochee_oborudovanie/",
+    "depth": 1,
+    "parent_url": null,
+    "file": "page-26.html"
+  },
+  {
+    "label": "Шкафы / Щиты",
+    "url": "https://ekt.kz/catalog/shkafy_shchity/",
+    "depth": 1,
+    "parent_url": null,
+    "file": "page-27.html"
+  },
+  {
+    "label": "Розетки/Выключатели/Коробки",
+    "url": "https://ekt.kz/catalog/rozetki_vyklyuchateli_korobki/",
+    "depth": 1,
+    "parent_url": null,
+    "file": "page-28.html"
+  },
+  {
+    "label": "Автоматизация",
+    "url": "https://ekt.kz/catalog/avtomatizatsiya/",
+    "depth": 1,
+    "parent_url": null,
+    "file": "page-29.html"
+  },
+  {
+    "label": "Видеонаблюдение / СКУД / Сигнализация",
+    "url": "https://ekt.kz/catalog/videonablyudenie_skud_signalizatsiya/",
+    "depth": 1,
+    "parent_url": null,
+    "file": "page-30.html"
+  },
+  {
+    "label": "Инструмент / КИП",
+    "url": "https://ekt.kz/catalog/instrument_kip/",
+    "depth": 1,
+    "parent_url": null,
+    "file": "page-31.html"
+  },
+  {
+    "label": "Корзина Электрика",
+    "url": "https://ekt.kz/catalog/korzina_elektrika/",
+    "depth": 1,
+    "parent_url": null,
+    "file": "page-32.html"
+  },
+  {
+    "label": "EKT PRO",
+    "url": "https://pro.ekt.kz/",
+    "file": "page-33.html"
+  }
+]

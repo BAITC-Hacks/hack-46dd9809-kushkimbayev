@@ -1,15 +1,47 @@
 {
   "manifest_version": 3,
   "name": "EKT · ИИ-консультант",
-  "version": "0.1.0",
+  "version": "0.6.0",
   "description": "Ассистент по каталогу ekt.kz. Ключи и обработка запросов — на вашем сервере.",
-  "permissions": ["storage"],
-  "host_permissions": ["http://localhost:8787/*", "http://127.0.0.1:8787/*"],
-  "optional_host_permissions": ["https://*/*"],
-  "background": { "service_worker": "background.js" },
-  "content_scripts": [{ "matches": ["https://ekt.kz/*", "https://www.ekt.kz/*"], "js": ["content.js"], "run_at": "document_idle" }],
-  "web_accessible_resources": [{ "resources": ["widget.html", "widget.css", "widget.js"], "matches": ["https://ekt.kz/*", "https://www.ekt.kz/*"] }],
-  "options_page": "options.html",
-  "action": { "default_title": "Настройки EKT-ассистента" },
-  "content_security_policy": { "extension_pages": "script-src 'self'; object-src 'none'; base-uri 'none'" }
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "http://localhost:8787/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://ekt.kz/*",
+        "https://www.ekt.kz/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "widget.html",
+        "widget.css",
+        "widget.js"
+      ],
+      "matches": [
+        "https://ekt.kz/*",
+        "https://www.ekt.kz/*"
+      ]
+    }
+  ],
+  "action": {
+    "default_title": "Открыть консультанта EKT"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; base-uri 'none'"
+  },
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgULkKkyi52r0yXKFCIH9p/FaiYDycswHxrXz9H/03ntZQEI0XXhyVOG1dt29/2uCyQNsbh2gx8N031hJ0I6Qmm51IT0nhEwmRctIy1k+Q/A+oM2+txOQqoZXynRdBbAH7AUroq3RvztMfw4XqpZpG6whpsxunTuw4v6SndgV5b2rII9BOnFIrTN4XgO4Lrj/6kh3CE0xKRTrBef4o8Xt8CtnsPP4lC8/woasFhRkNXACxE4aL7Zk3sXyjGuugo6lDxkdxMyEtlEH1rH4p217evjZkOqlsnXt80dogmKyPZjv7YV03nnVPiGWvJhfU6EEkQSGU9OyAUEhuOp2vgAynQIDAQAB"
 }

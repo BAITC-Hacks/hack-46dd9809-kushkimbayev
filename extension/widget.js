@@ -1,13 +1,44 @@
 const extension = location.protocol === 'chrome-extension:';
+if (location.search === '?embedded=1') document.documentElement.classList.add('embedded');
 const messages = document.querySelector('#messages'), form = document.querySelector('#composer'), input = document.querySelector('#message');
-let serverURL = location.origin, busy = false, selectedFile = null, pendingButtons = [];
+let serverURL = location.origin, busy = false, selectedFile = null, pendingButtons = [], extensionDisconnected = false;
 const money = value => value == null ? 'Цена не указана' : `${Number(value).toLocaleString('ru-RU')} ₸`;
 const node = (tag, cls, text) => { const el = document.createElement(tag); if (cls) el.className = cls; if (text != null) el.textContent = text; return el; };
 const scroll = () => { messages.scrollTop = messages.scrollHeight; };
+function disconnectExtension() {
+  if (!extensionDisconnected) {
+    extensionDisconnected = true;
+    invalidate();
+    document.querySelector('#connection').textContent = 'Расширение отключилось';
+    document.querySelector('#connection').setAttribute('data-state', 'disconnected');
+    document.querySelector('#mode-note').textContent = 'Перезапустите чат; если не помогло — обновите страницу ekt.kz (F5).';
+    input.disabled = true;
+    document.querySelector('#send').disabled = true;
+    document.querySelectorAll('#reset, #file, [data-query], .product-actions button, .product-actions input, .confirmation button').forEach(el => { el.disabled = true; });
+    const el = message('Связь с расширением потеряна. Такое бывает после его обновления или отключения. Перезапустите чат. Если ошибка повторится, проверьте, что расширение включено, и обновите страницу ekt.kz (F5). Последний запрос не отправляется повторно автоматически.', 'error');
+    el.id = 'extension-recovery';
+    const restart = node('button', 'secondary', 'Перезапустить чат');
+    restart.type = 'button';
+    // Reload only this widget; never replay a request or a cart confirmation.
+    restart.onclick = () => { restart.disabled = true; location.reload(); };
+    el.append(restart); scroll();
+  }
+  return Error('Связь с расширением потеряна. Перезапустите чат или обновите страницу ekt.kz (F5).');
+}
 async function api(path, method = 'GET', body) {
   if (extension) {
-    const result = await chrome.runtime.sendMessage({ type: 'api', path, method, body });
-    if (!result || result.error) throw Error(result?.error || 'Не удалось связаться с расширением.');
+    if (extensionDisconnected) throw disconnectExtension();
+    let result;
+    try {
+      const runtime = globalThis.chrome?.runtime;
+      if (!runtime?.id || typeof runtime.sendMessage !== 'function') throw Error('Extension context invalidated.');
+      result = await runtime.sendMessage({ type: 'api', path, method, body });
+    } catch (error) {
+      if (/extension context invalidated|receiving end does not exist|could not establish connection|message (?:port|channel) closed/i.test(error?.message || '')) throw disconnectExtension();
+      throw error;
+    }
+    if (extensionDisconnected || !result || (!result.error && result.data == null)) throw disconnectExtension();
+    if (result.error) throw Error(result.error);
     serverURL = result.serverURL; return result.data;
   }
   let token = sessionStorage.getItem('ekt-session');
@@ -24,7 +55,7 @@ async function api(path, method = 'GET', body) {
 function message(text, role = 'assistant') {
   document.querySelector('.welcome')?.remove();
   const el = node('article', `message ${role}`);
-  if (role === 'assistant') el.append(node('div', 'message-label', '✦ EKT АССИСТЕНТ'));
+  if (role === 'assistant') el.append(node('div', 'message-label', 'КОНСУЛЬТАНТ EKT'));
   el.append(node('div', 'bubble', text)); messages.append(el); scroll(); return el;
 }
 function safeLink(url, label, cls = '') {
@@ -33,58 +64,102 @@ function safeLink(url, label, cls = '') {
   const a = node('a', cls, label); a.href = u.href; a.target = '_blank'; a.rel = 'noopener noreferrer'; return a;
 }
 function renderProduct(p) {
-  const card = node('section', 'product-card'), top = node('div', 'product-top'), copy = node('div');
-  if (p.image) { const image = node('img', 'product-image'); image.src = p.image; image.alt = ''; image.loading = 'lazy'; top.append(image); }
-  copy.append(node('div', 'sku', `АРТ. ${p.sku}`), node('h3', '', p.name)); top.append(copy); card.append(top);
-  const stock = p.stockKnown === false ? null : p.stock ?? p.warehouses.reduce((n, w) => n + w.stock, 0);
-  card.append(node('div', `stock ${stock === 0 ? 'empty' : ''}`, stock === null ? 'Наличие уточняется в карточке' : stock > 0 ? `● В наличии · ${stock} ${p.unit}` : 'Нет в наличии'));
-  const price = node('div', 'product-price', money(p.price)); price.append(node('small', '', ` / ${p.unit}`)); card.append(price);
+  const card = node('section', 'product-card item'), top = node('div', 'product-top'), copy = node('div', 'product-info');
+  const photo = node('div', 'product-photo'), fallback = node('span', 'photo-fallback', 'Фото товара недоступно');
+  fallback.hidden = Boolean(p.image);
+  if (p.image) {
+    const image = node('img', 'product-image'); image.src = p.image; image.alt = p.name; image.loading = 'lazy';
+    image.onerror = () => { image.hidden = true; fallback.hidden = false; };
+    photo.append(image);
+  }
+  photo.append(fallback);
+  const specs = Object.entries(p.specs || {}), warehouses = p.warehouses || [];
+  copy.append(node('div', 'item-kicker', p.brand || 'КАТАЛОГ EKT'), node('h3', 'item-title', p.name), node('div', 'sku', `Артикул: ${p.sku}`));
+  if (specs.length) {
+    const preview = node('dl', 'specs');
+    for (const [key, value] of specs.slice(0, 3)) preview.append(node('dt', '', key), node('dd', '', value));
+    copy.append(preview);
+  }
+  if (p.url) copy.append(safeLink(p.url, 'Карточка на ekt.kz ↗', 'product-link'));
+  top.append(photo, copy); card.append(top);
+  const stock = p.stockKnown === false ? null : p.stock ?? (warehouses.length ? warehouses.reduce((n, w) => n + w.stock, 0) : null);
+  const knownPrice = Number.isFinite(p.price) && p.price >= 0;
+  const priceRow = node('div', 'price-row'), priceBlock = node('div'), price = node('strong', 'product-price', knownPrice ? money(p.price) : 'Цена не указана');
+  if (knownPrice) price.append(node('small', '', ` / ${p.unit}`));
+  priceBlock.append(node('div', 'price-label', 'Цена по каталогу'), price); priceRow.append(priceBlock); card.append(priceRow);
+  card.append(node('div', `stock ${stock === 0 ? 'empty' : stock === null ? 'unknown' : ''}`, stock === null ? 'Наличие уточняется в карточке' : stock > 0 ? `✓ В наличии · ${stock} ${p.unit}` : 'Нет в наличии'));
   if (p.warning) card.append(node('div', 'warning', p.warning));
   if (p.reason) card.append(node('div', 'reason', `Почему этот аналог: ${p.reason}`));
   const details = node('details'); details.append(node('summary', '', 'Характеристики и наличие по складам'));
-  const dl = node('dl'); for (const [k, v] of Object.entries(p.specs)) dl.append(node('dt', '', k), node('dd', '', v));
+  const dl = node('dl'); for (const [k, v] of specs) dl.append(node('dt', '', k), node('dd', '', v));
   details.append(dl);
-  if (!Object.keys(p.specs).length) details.append(node('p', '', 'Характеристики не переданы источником.'));
-  for (const w of p.warehouses.filter(w => w.stock > 0)) details.append(node('div', '', `${w.name}: ${w.stock} ${p.unit}`));
+  if (!specs.length) details.append(node('p', '', 'Характеристики не переданы источником.'));
+  for (const w of warehouses.filter(w => w.stock > 0)) details.append(node('div', '', `${w.name}: ${w.stock} ${p.unit}`));
   if (p.description) details.append(node('p', '', p.description));
   if (p.checkedAt) details.append(node('p', '', `Проверено: ${new Date(p.checkedAt).toLocaleTimeString('ru-RU')}`));
   card.append(details);
-  if (!p.certificates.length) card.append(node('div', 'sku', 'Сертификат не передан источником'));
-  for (const c of p.certificates) card.append(safeLink(c.url, `↗ ${c.name}`));
-  if (p.url) card.append(safeLink(p.url, 'Открыть товар на ekt.kz ↗'));
+  const certificates = node('div', 'certificates');
+  if (!p.certificates?.length) certificates.append(node('div', 'sku', 'Сертификат не передан источником'));
+  for (const c of p.certificates || []) certificates.append(safeLink(c.url, `↗ ${c.name}`, 'certificate-link'));
+  card.append(certificates);
   const actions = node('div', 'product-actions');
-  const qty = node('input', 'quantity'); qty.type = 'number'; qty.min = p.minOrder; qty.max = stock ?? 10000; qty.step = 1; qty.value = p.minOrder; qty.setAttribute('aria-label', `Количество ${p.sku}`);
-  const add = node('button', 'primary', stock === null ? 'Уточнить товар' : 'В демо-корзину'); add.type = 'button'; add.disabled = stock === 0 || p.price === null;
+  const minOrder = p.minOrder || 1;
+  const labels = node('div', 'purchase-labels'); labels.append(node('span', '', 'Количество'), node('span', '', 'Сумма'));
+  const purchase = node('div', 'purchase'), quantityControl = node('div', 'quantity-control');
+  const qty = node('input', 'quantity'); qty.type = 'number'; qty.min = minOrder; qty.max = stock ?? 10000; qty.step = 1; qty.value = minOrder; qty.setAttribute('aria-label', `Количество ${p.sku}`);
+  quantityControl.append(qty, node('span', '', p.unit));
+  const total = node('strong', 'purchase-total'); total.setAttribute('aria-live', 'polite');
+  const add = node('button', 'primary', stock === null ? 'Уточнить товар' : 'В корзину →'); add.type = 'button';
+  const updateTotal = () => {
+    const quantity = Number(qty.value);
+    const valid = Number.isSafeInteger(quantity) && quantity >= minOrder && quantity <= (stock ?? 10000);
+    total.textContent = !knownPrice ? 'Цена не указана' : valid ? money(p.price * quantity) : '—';
+    add.disabled = extensionDisconnected || (stock !== null && (!knownPrice || !valid));
+  };
+  qty.oninput = updateTotal; updateTotal();
   add.onclick = () => stock === null ? send(`Покажи товар ${p.id}`) : act(async () => render(await api('/api/cart/prepare', 'POST', { sku: p.sku, quantity: Number(qty.value) })));
-  actions.append(qty, add); card.append(actions); return card;
+  purchase.append(quantityControl, total); actions.append(labels, purchase, add, node('div', 'explain', 'Добавим только после вашего подтверждения')); card.append(actions); return card;
 }
 function invalidate() { for (const b of pendingButtons) b.disabled = true; pendingButtons = []; }
 // Integration point: replace this alert with the site's authenticated cart function.
 // Called only after the server has accepted an explicit confirmation and rechecked stock.
+const shownActions = new Set();
 function notifyCartChange(result) {
-  window.alert(`Товар добавлен в корзину!\n\n${result.text}\n\nПрототип: изменение корзины ekt.kz сейчас имитируется.`);
+  if (shownActions.has(result.action.id)) return;
+  shownActions.add(result.action.id);
+  window.alert(`Товар добавлен в корзину!\n\n${result.action.name}\nКоличество: ${result.action.quantity} ${result.action.unit}\n\nИмитация действия сайта; реальная корзина не изменяется.`);
 }
 function render(result) {
   invalidate(); const el = message(result.text);
+  if (result.matchType === 'exact' && result.navigation?.type === 'open_product') {
+    const url = new URL(result.navigation.url);
+    if (url.protocol === 'https:' && url.hostname === 'ekt.kz' && !url.port && !url.username && !url.password && url.pathname.startsWith('/catalog/')) {
+      if (!extension) window.open(url.href, '_blank', 'noopener,noreferrer');
+      el.append(safeLink(url.href, result.navigation.opened ? 'Товар открыт в новой вкладке ↗' : 'Открыть страницу товара ↗', 'source-link'));
+    }
+  }
   for (const p of [...(result.products || []), ...(result.alternatives || [])]) el.append(renderProduct(p));
-  for (const source of result.sources || []) el.append(safeLink(source.url, `Источник: ${source.title}`));
+  for (const source of result.sources || []) el.append(safeLink(source.url, `Источник: ${source.title}`, 'source-link'));
+  if (result.answerMode === 'research-ai') el.append(node('div', 'sku', `ИИ · на основе research · проверено ${result.knowledgeCheckedAt}`));
+  if (result.answerMode === 'assistant-ai') el.append(node('div', 'sku', 'ИИ · общая консультация'));
+  if (result.answerMode === 'research-fallback') el.append(node('div', 'sku', 'Справка из research · ИИ недоступен'));
   if (result.proposal) {
     const area = node('div', 'confirmation'); area.append(node('div', 'sku', 'ПОДТВЕРЖДЕНИЕ · ДЕЙСТВУЕТ 5 МИНУТ'));
     const confirm = node('button', 'primary', 'Да, добавь'), cancel = node('button', 'secondary', 'Отмена');
     confirm.onclick = () => act(async () => render(await api('/api/cart/confirm', 'POST', { proposalId: result.proposal.id, confirmed: true })));
     cancel.onclick = () => send('Отмена'); area.append(confirm, cancel); el.append(area); pendingButtons = [confirm, cancel];
   }
-  if (result.cartPath) { el.append(safeLink(result.cartPath, 'Открыть демонстрационную корзину ↗', 'cart-link')); notifyCartChange(result); }
+  if (result.action?.type === 'add_to_cart') notifyCartChange(result);
   scroll();
 }
 async function act(fn) {
-  if (busy) return; busy = true; document.querySelector('#send').disabled = true; input.disabled = true;
+  if (busy || extensionDisconnected) return; busy = true; document.querySelector('#send').disabled = true; input.disabled = true;
   const typing = node('div', 'typing', 'Проверяю данные'); messages.append(typing); scroll();
-  try { await fn(); } catch (e) { message(e.message || 'Не удалось подключиться к серверу. Проверьте, что он запущен.', 'error'); }
-  finally { typing.remove(); busy = false; document.querySelector('#send').disabled = false; input.disabled = false; input.focus(); scroll(); }
+  try { await fn(); } catch (e) { if (!extensionDisconnected) message(e.message || 'Не удалось подключиться к серверу. Проверьте, что он запущен.', 'error'); }
+  finally { typing.remove(); busy = false; document.querySelector('#send').disabled = extensionDisconnected; input.disabled = extensionDisconnected; if (!extensionDisconnected) input.focus(); scroll(); }
 }
 async function send(text) {
-  if (busy || (!text.trim() && !selectedFile)) return;
+  if (busy || extensionDisconnected || (!text.trim() && !selectedFile)) return;
   invalidate(); const file = selectedFile; message(text + (file ? `\n📎 ${file.name}` : ''), 'user'); input.value = ''; selectedFile = null; filePreview();
   await act(async () => {
     let attachment;
@@ -101,10 +176,11 @@ function filePreview() {
   document.querySelector('#file').value = '';
 }
 document.querySelector('#file').onchange = e => { const f = e.target.files[0]; if (f?.size > 5 * 1024 * 1024) { message('Максимальный размер файла — 5 МБ.', 'error'); return; } selectedFile = f; filePreview(); };
-document.querySelector('#reset').onclick = () => act(async () => { await api('/api/session', 'DELETE'); messages.replaceChildren(); invalidate(); message('Начат новый диалог. Предыдущая сессия и демонстрационная корзина удалены.'); });
+document.querySelector('#reset').onclick = () => act(async () => { await api('/api/session', 'DELETE'); messages.replaceChildren(); invalidate(); shownActions.clear(); message('Начат новый диалог.'); });
 api('/api/health').then(data => {
-  document.querySelector('#connection').textContent = data.ai ? 'На связи · ИИ подключён' : 'На связи · поиск по каталогу';
-  document.querySelector('#mode-note').textContent = `${data.mode === 'live' ? 'Каталог ekt.kz · реальные данные' : 'Тестовый каталог'} · корзина демонстрационная`;
+  if (extensionDisconnected) return;
+  document.querySelector('#connection').textContent = data.ai ? 'На связи · ИИ подключён' : 'На связи · каталог и справка о сайте';
+  document.querySelector('#mode-note').textContent = data.mode === 'live' ? `Каталог ekt.kz · ${data.count.toLocaleString('ru-RU')} товаров${data.complete ? '' : ' · обновляется'}` : 'Тестовый каталог';
   if (data.mode === 'demo') document.querySelector('[data-query="Покажи товар 515291"]').dataset.query = 'Покажи DEMO-101';
   if (data.mode === 'live') { const b = document.querySelector('[data-query="Нужен аналог DEMO-102"]'); b.dataset.query = 'Нужен аналог товара 515291'; }
-}).catch(() => { document.querySelector('#connection').textContent = 'Нет соединения'; document.querySelector('#mode-note').textContent = 'Запустите сервер или проверьте адрес в настройках расширения'; });
+}).catch(() => { if (extensionDisconnected) return; document.querySelector('#connection').textContent = 'Нет соединения'; document.querySelector('#mode-note').textContent = 'Запустите Start-EKT.cmd на этом компьютере и повторите сообщение'; });
