@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>EKT · Макет консультанта</title><link rel="stylesheet" href="app.css"><script src="app.js" defer></script></head>
+<body><main id="ekt-design-directions" aria-label="Дизайн-макет ИИ-консультанта"><section class="assistant">
+  <header class="assistant-header"><span class="assistant-mark">E</span><div><strong>ИИ-консультант EKT</strong><small>Товары, наличие и подбор</small></div><button class="close" type="button" aria-label="Свернуть помощника">−</button></header>
+  <div class="context"><span class="status-dot"></span>Дизайн-макет <span>Пример подбора товара</span></div>
+  <div class="dialog" role="log" aria-label="Диалог с консультантом">
+    <div class="user-msg" data-user-message>Мне нужно 50 метров этого провода</div>
+    <div class="reply-label">КОНСУЛЬТАНТ EKT</div><p class="assistant-msg">Вот выбранный провод. Посмотрите фото и характеристики, затем проверьте количество.</p>
+    <article class="item">
+      <div class="product-top"><div class="product-photo"><span class="gost">ГОСТ</span><img src="assets/sip4.png" alt="Провод СИП-4 с двумя алюминиевыми жилами в чёрной изоляции" width="200" height="200"><span class="photo-fallback" hidden>Фото товара недоступно</span></div><div class="product-info"><div class="item-kicker">ПРОВОД · EKT</div><h1 class="item-title">Самонесущий провод<br>СИП-4 2×16</h1><div class="sku">Артикул: 051400125_</div><dl class="specs"><dt>Количество жил</dt><dd>2</dd><dt>Сечение жилы</dt><dd>16 мм²</dd><dt>Напряжение</dt><dd>0,66/1 кВ</dd></dl><a class="product-link" href="https://ekt.kz/catalog/kabel_provod/provod_dlya_vozdushnykh_liniy_peredach/alyuminievyy_samonesushchiy_izolirovannyy_sip_4/sip4_2kh_16_0_66_1_kv_gost_ekt_ne_sshiv_svetostab_pe_baraban/" target="_blank" rel="noopener noreferrer">Карточка на ekt.kz ↗</a></div></div>
+      <div class="price-row"><div><div class="price-label">Цена на сайте · пример</div><strong>334 ₸ <small>/ м</small></strong></div><div class="store-price"><div class="price-label">В магазине · пример</div><span>350 ₸</span></div></div>
+      <div class="item-stock">✓ В наличии <span>Пример состояния, остаток не проверен</span></div>
+      <div class="purchase-labels"><span>Количество</span><span>Сумма за 50 м</span></div><div class="purchase"><div class="quantity">50 <span>м</span></div><strong>16 700 ₸</strong></div>
+      <button class="primary" type="button" data-review>В корзину <span>→</span></button><div class="explain">Добавим только после вашего подтверждения</div>
+    </article>
+    <section class="confirm" hidden data-confirm aria-live="polite"><strong>Подтвердите выбранную позицию</strong><p>Провод СИП-4 2×16 · 50 м<br>Сумма: <b>16 700 ₸</b></p><div class="confirm-actions"><button class="primary" type="button" data-confirm-yes>Да, добавить</button><button class="chip" type="button" data-confirm-no>Отмена</button></div></section>
+    <div class="confirmed" hidden data-success aria-live="polite"></div>
+    <div class="chips"><button class="chip" type="button" data-info="cert">Сертификат</button><button class="chip" type="button" data-info="stock">Остатки по складам</button><button class="chip" type="button" data-info="analog">Подобрать аналог</button></div><p class="assistant-msg detail" data-detail hidden aria-live="polite"></p>
+  </div>
+  <div class="composer"><form class="input"><span aria-hidden="true">＋</span><input aria-label="Вопрос консультанту" placeholder="Спросите о товаре…" maxlength="1000"><button class="send" type="submit" aria-label="Отправить вопрос">↑</button></form><div class="footnote">Дизайн-макет · реальная корзина не меняется</div></div>
+</section></main></body></html>
